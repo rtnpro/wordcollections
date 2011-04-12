@@ -1,6 +1,8 @@
 import pygtk
 import gtk
 import polib
+import csv
+
 GLADE_FILE = 'wc_new.glade'
 class gui:
 	def parse_file(self, filename):
@@ -129,7 +131,12 @@ class gui:
 			po.append(value)
 		po.save(filename)
 
-	
+	def save_to_csv(self, filename):
+		f = open(filename, 'w')
+		writer = csv.writer(f, delimiter = ',', quotechar = "'", quoting = csv.QUOTE_ALL)
+		for entry in self.entries:
+			writer.writerow([entry])
+
 	def on_export_clicked(self, widget=None, event=None):
 		filename = self.export_file_button.get_filename()
 		if filename.endswith('.txt'):
