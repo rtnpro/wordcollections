@@ -4,57 +4,57 @@ import sqlite3
 import os
 import sys
 import polib
+import csv
 
 usr_home = os.environ['HOME']
 wordgroupz_dir = usr_home+'/.wordgroupz'
 db_file_path = wordgroupz_dir+'/wc.db'
 
 class wc_db:
-    
     def __init__(self):
         if not os.path.exists(wordgroupz_dir):
-            os.mkdir(wordgroupz_dir, 0755)    
+            os.mkdir(wordgroupz_dir, 0755)
         conn = sqlite3.connect(db_file_path)
         c = conn.cursor()
         tables = []
         for x in c.execute('''select name from sqlite_master'''):
             tables.append(x[0])
-        if not 'terms' in tables:        
+        if not 'terms' in tables:
             c.execute('''create table terms (term text, translation text, context text, app text, category text)''')
             conn.commit()
         c.close()
         conn.close()
-        
+
     def open_connection(self):
         self.conn = sqlite3.connect(db_file_path)
         self.c = self.conn.cursor()
         self.conn.text_factory = str
-        
+
     def close_connection(self):
         self.c.close()
         self.conn.close()
-        
+
     def store_data_from_po_file(self, term, translation, app, category, context=''):
         self.open_connection()
         t = (term, translation, context, app, category)
         self.c.execute('''insert into terms values (?,?,?,?,?)''',t)
         self.conn.commit()
         self.close_connection()
-    
+
     def get_categories(self):
         self.open_connection()
         self.c.execute('''select category from terms group by category order by category''')
         result = self.c.fetchall()
         self.close_connection()
         return result
-    
+
     def get_apps(self, category):
         self.open_connection()
         self.c.execute("""select app from terms where category=? group by app order by app""",(category,))
         result = self.c.fetchall()
         self.close_connection()
         return result
-        
+
     def get_terms_per_app(self, app, category=None):
         self.open_connection()
         if category is None:
@@ -77,13 +77,49 @@ class wc_db:
         self.conn.commit()
         self.close_connection()
 
+    def get_entire_category(self, category):
+        self.open_connection()
+        t = (category,)
+        self.c.execute("""select term, translation, context from terms where category=?""",t)
+        results = self.c.fetchall()
+        self.close_connection()
+        return results
+
+    def get_entire_app(self, app, category):
+        self.open_connection()
+        t = (app, category,)
+        self.c.execute("""select term, translation, context from terms where app=? and  category=?""",t)
+        results = self.c.fetchall()
+        return results
+
+    def delete_category(self, category):
+        self.open_connection()
+        t = (category, )
+        self.c.execute("""delete from terms where category=?""", t)
+        self.conn.commit()
+        self.close_connection()
+
+    def delete_app(self, app, category):
+        self.open_connection()
+        t = (app, category,)
+        self.c.execute("""delete from terms where app=? and category=?""",t)
+        self.conn.commit()
+        self.close_connection()
+
+def save_as_csv(filename, values, dir='.'):
+    filepath = os.path.join(dir.rstrip('/'), filename + '.csv')
+    writer = csv.writer(open(filepath, "w"), delimiter= ',',
+                    quotechar='"', quoting=csv.QUOTE_ALL)
+    for row in values:
+        writer.writerow([s.encode("utf-8") for s in row])
+
 def parse_po(db, filename, app, category):
     po = polib.pofile(filename)
     for i in po.translated_entries():
         term = i.msgid
         translation = i.msgstr
         db.store_data_from_po_file(term, translation, app, category)
-    
+
 class gui:
     def __init__(self):
         self.builder = gtk.Builder()
@@ -106,7 +142,7 @@ class gui:
         self.scrolledwindow2 = self.builder.get_object('scrolledwindow2')
         self.scrolledwindow2.add(self.treeview)
         #self.treeview.set_reorderable(True)
-        
+
         self.treeview1 = gtk.TreeView()
         self.treestore1 = gtk.TreeStore(str, str, str)
         self.treeview1.set_model(self.treestore1)
@@ -115,12 +151,14 @@ class gui:
         self.cell = gtk.CellRendererText()
         self.tvcol1.pack_start(self.cell, True)
         self.tvcol1.add_attribute(self.cell, 'text',0)
-        #self.cell.set_property('wrap-mode', 1)
-        #self.cell.set_property('wrap-width', 200)
+        self.cell.set_property('wrap-mode', gtk.WRAP_WORD)
+        self.cell.set_property('wrap-width', 200)
         self.tvcol2 = gtk.TreeViewColumn('MsgStr')
         self.treeview1.append_column(self.tvcol2)
         self.cell = gtk.CellRendererText()
         self.cell.set_property('editable', True)
+        self.cell.set_property('wrap-mode', gtk.WRAP_WORD)
+        self.cell.set_property('wrap-width', 200)
         self.cell.connect('edited', self.cell_edited_cb, (self.treeview1.get_model(), 1))
         self.tvcol2.pack_start(self.cell,True)
         self.tvcol2.add_attribute(self.cell, 'text', 1)
@@ -132,6 +170,8 @@ class gui:
         self.tvcol3.pack_start(self.cell, True)
         self.tvcol3.add_attribute(self.cell, 'text', 2)
         #self.tvcol2.add_attribute(self.cell,'wrap-width', 20)
+        self.cell.set_property('wrap-mode', gtk.WRAP_WORD)
+        self.cell.set_property('wrap-width', 200)
         self.selection1 = self.treeview1.get_selection()
         self.selection1.connect('changed',self.tree1_select_changed)
         #self.treeview1.set_reorderable(True)
@@ -140,7 +180,7 @@ class gui:
         self.scrolledwindow1.add(self.treeview1)
         self.entry_app = self.builder.get_object('entry1')
         self.entry_cat = self.builder.get_object('entry2')
-        
+
         self.file_button = self.builder.get_object('filechooserbutton1')
         self.file_button.set_title('Select a *.po file')
         self.b_submit = self.builder.get_object('submit')
@@ -153,7 +193,7 @@ class gui:
         self.b_move.connect('clicked', self.move_entry, None)
         self.b_delete = self.builder.get_object('delete')
         self.b_delete.connect('clicked', self.delete_entry, None)
-        
+
         self.app_combo = gtk.combo_box_new_text()
         self.app_combo.append_text("None")
         self.category_combo = gtk.combo_box_new_text()
@@ -175,30 +215,91 @@ class gui:
         #self.move_hbox.set_sensitive(False)
         self.b_add = self.builder.get_object('add')
         self.b_add.connect('clicked', self.add_entry, None)
-        #add
-        #self.add_app_combo = gtk.combo_box_new_text()
-        #self.add_cat_combo = gtk.combo_box_new_text()
-        #populate combo boxes
-        #for i 
+
+        #menubar 
+        self.b_menu_exit = self.builder.get_object('menu_exit')
+        self.b_menu_exit.connect("activate", gtk.main_quit, None)
+
+        self.b_menu_save = self.builder.get_object('menu_save')
+        self.b_menu_save.connect('activate', self.save_cat_app, None)
+
+        self.b_menu_about = self.builder.get_object('menu_about')
+        self.b_menu_about.connect('activate', self.on_about_clicked, None)
+
+        #delete or save as csv category or app
+        self.b_del_cat_app = self.builder.get_object('delete_cat_app')
+        self.b_del_cat_app.connect("clicked", self.del_cat_app, None)
+        self.b_save_as_csv = self.builder.get_object('save_as_csv')
+        self.b_save_as_csv.connect("clicked", self.save_cat_app, None)
         self.window.show()
         self.treeview.show_all()
         self.treeview1.show_all()
-        
+
         for i in db.get_categories():
             piter = self.treestore.append(None, [i[0]])
-            
+
             for j in db.get_apps(i[0]):
                 self.treestore.append(piter, [j[0]])
         self.treeview.expand_all()
+
+    def on_about_clicked(self, widget=None, event=None):
+        dialog = gtk.AboutDialog()
+        dialog.set_default_size(300, 100)
+        dialog.set_position(gtk.WIN_POS_CENTER_ON_PARENT)
+        dialog.set_name('WordCollections')
+        dialog.set_copyright('(c) 2011 Ratnadeep Debnath')
+        dialog.set_website('http://ankur.org.in/wiki/WordCollections')
+        dialog.set_authors(['Ratnadeep Debnath <rtnpro@gmail.com>'])
+        dialog.set_program_name('WordCollections')
+        dialog.run()
+        dialog.destroy()
+    def del_cat_app(self, widget=None, event=None):
+        if self.tree_app == None:
+            if self.tree_cat != None:
+                db.delete_category(self.tree_cat)
+        else:
+            if self.tree_cat != None:
+                db.delete_app(self.tree_app, self.tree_cat)
+        self.refresh_tree()
+    def save_cat_app(self, widget=None, event=None):
+        try:
+            if self.tree_app == None:
+                if self.tree_cat != None:
+                    values = db.get_entire_category(self.tree_cat)
+                    filename = self.tree_cat
+            else:
+                values = db.get_entire_app(self.tree_app, self.tree_cat)
+                filename = self.tree_cat + '_' + self.tree_app
+            save_as_csv(filename, values)
+        except:
+            self.alert("No application or category\nselected for saving")
+
+    def alert(self, msg):
+        dialog= gtk.Dialog(title="Alert!", parent = self.window)
+        label = gtk.Label(msg)
+        label.show()
+        dialog.set_default_size(200, 100)
+        dialog.set_modal(True)
+        vbox = dialog.get_content_area()
+        vbox.pack_start(label)
+        dialog.run()
+        dialog.destroy()
+
     def add_entry(self, widget=None, event=None):
         msgid = self.builder.get_object('msgid_entry').get_text()
         msgstr = self.builder.get_object('msgstr_entry').get_text()
         context = self.builder.get_object('context_entry').get_text()
         app = self.builder.get_object('app_entry').get_text()
         category = self.builder.get_object('cat_entry').get_text()
+        if msgid=='' or category == '':
+            self.alert("Fields marked with * cannot be blank")
+            return
+        if app == '':
+            app = 'Global'
         db.add_entry(msgid, msgstr, context, app, category)
         self.refresh_tree()
         #self.refresh_tree()
+
     def get_app_category(self):
         if self.iter1 is not None:
             if len(self.model1.get_path(self.iter1)) == 2:
@@ -237,13 +338,12 @@ class gui:
         db.close_connection()
         self.refresh_tree()
         self.tree_select_changed()
-        
+
     def category_changed(self, widget=None, event=None):
         app_model = self.app_combo.get_model()
         app_model.clear()
         new_cat = self.category_combo.get_active_text()
         app, category = self.get_app_category()
-        print new_cat
         apps = []
         for i in db.get_apps(new_cat):
             apps.append(i[0])
@@ -264,39 +364,31 @@ class gui:
         old_path = self.model.get_path(self.iter)
         self.refresh_tree()
         self.tree_select_changed()
-        
         self.expand_tree_to_new(self.treeview, new_app, new_category, old_iter=old_path)
 
     def cell_edited_cb(self, cell, path, new_text, user_data):
-        print path
         liststore, column = user_data
         if column == 1:
             col = 'translation'
         elif column == 2:
             col = 'context'
         liststore[path][column] = new_text
-        print liststore[path.split(':')[0]][0]
         l = len(path)
         selection = self.treeview.get_selection()
         model, iter = selection.get_selected()
         p = model.get_path(iter)
         if len(p)==1:
             app = unicode(liststore[path.split(':')[0]][0])
-            print "App : "+ app
             category = unicode(model.get_value(iter,0))
-            print 'Category : ' + category
         elif len(p) == 2:
             app = unicode(model.get_value(iter, 0))
-            print "App: "+ app
             piter = model.iter_parent(iter)
             category  = unicode(model.get_value(piter,0))
-            print 'Category : ' + category
 
         term = liststore[path][0]
-        print 'term : ' + term
         db.update_column(col, new_text, term, app, category)
         #if column == 1:
-            
+
     #selection.select_iter(iter)
     def expand_tree_to_new(self, treeview, new_app, new_category, old_iter=None):
         model = treeview.get_model()
@@ -321,6 +413,8 @@ class gui:
     def submit(self, widget=None, event=None):
         if self.file_button.get_filename() is not None and self.entry_app.get_text() is not '' and self.entry_cat.get_text() is not '':
             parse_po(db, self.file_button.get_filename(), self.entry_app.get_text(), self.entry_cat.get_text())
+        else:
+            self.alert("Fields marked with * are mandatory")
         self.refresh_tree()
     def tree1_select_changed(self, widget=None, event=None):
         self.model1, self.iter1 = self.selection1.get_selected()
@@ -338,14 +432,12 @@ class gui:
                 app = self.model.get_value(self.iter, 0)
                 try:
                     category = str(self.model.get_value(self.model.iter_parent(self.iter), 0))
-                    
                 except:
                     self.control_hbox.hide()
                     category = None
 
             app_model = self.app_combo.get_model()
             iter = app_model.get_iter_root()
-            print app_model.get_value(iter,0)
             while iter is not None:
                 if app_model.get_value(iter,0) == app:
                     #self.app_combo.set_active_iter(iter)
@@ -359,14 +451,17 @@ class gui:
                     break
                 iter = category_model.iter_next(iter)
             self.builder.get_object('app_entry').set_text(app)
-            self.builder.get_object('cat_entry').set_text(category)
-     
+            try:
+                self.builder.get_object('cat_entry').set_text(category)
+            except:
+                pass
+
     def tree_select_changed(self, widget=None, event=None):
         self.treestore1.clear()
+        self.builder.get_object('hbox12').hide()
         self.model, self.iter = self.selection.get_selected()
-        #print self.iter
-        #print self.model.get_path(self.iter)
         if self.iter is not None:
+            self.builder.get_object('hbox12').show()
             self.tree_value = self.model.get_value(self.iter, 0)
             apps = []
             categories = []
@@ -376,16 +471,24 @@ class gui:
                 for j in db.get_apps(i[0]):
                     if j[0] not in apps:
                         apps.append(j[0])
+            #self.tree_cat = None
+            #self.tree_app = None
             if self.tree_value in apps:
-                cat = str(self.model.get_value(self.model.iter_parent(self.iter), 0))
-                for i in db.get_terms_per_app(self.tree_value, category=cat):
+                try:
+                    self.tree_cat = str(self.model.get_value(self.model.iter_parent(self.iter), 0))
+                except:
+                    pass
+                self.tree_app = self.tree_value
+                for i in db.get_terms_per_app(self.tree_value, category=self.tree_cat):
                     self.treestore1.append(None, [i[0], i[1],i[2]])
             elif self.tree_value in categories:
+                self.tree_cat = self.tree_value
+                self.tree_app = None
                 for i in db.get_apps(self.tree_value):
                     piter = self.treestore1.append(None, [i[0], '', ''])
                     for j in db.get_terms_per_app(i[0], category=self.tree_value):
                         self.treestore1.append(piter, [j[0],j[1],j[2]])
-                self.treeview1.expand_all()       
+                self.treeview1.expand_all()
             path = self.model.get_path(self.iter)
             if len(path) == 2:
                 app = str(self.model.get_value(self.iter, 0))
