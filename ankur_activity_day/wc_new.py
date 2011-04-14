@@ -101,6 +101,7 @@ class gui:
             self.examine_window_destroy()
             return
         self.entry_label.set_text(self.entries[self.index])
+        
     def examine_window_destroy(self, widget=None, event=None):
         self.examine_window.destroy()
 
@@ -193,6 +194,19 @@ class gui:
         else:
             self.entries[path] = new_text
         self.refresh_list()
+    
+    def delete_from_list(self, widget=None, event=None):
+        model, iter = self.selection.get_selected()
+        path = int(model.get_path(iter)[0])
+        self.entries.remove(self.entries[path])
+        self.refresh_list()
+    
+    def tree_select_changed(self, widget=None, event=None):
+        model, iter = self.selection.get_selected()
+        if iter is not None:
+            self.delete__button.set_sensitive(True)
+        else:
+            self.delete__button.set_sensitive(False)
         
     def __init__(self):
         self.builder = gtk.Builder()
@@ -221,6 +235,7 @@ class gui:
         self.treeview.set_model(self.treestore)
         self.treeview.expand_all()
         self.selection = self.treeview.get_selection()
+        self.selection.connect('changed', self.tree_select_changed)
         self.error_msg = self.builder.get_object('hbox7')
         self.treeview.show()
         self.list_scroller.add(self.treeview)
@@ -228,6 +243,8 @@ class gui:
         self.b_examine.connect('clicked', self.on_examine_clicked, None)
         self.export_button = self.builder.get_object('export')
         self.export_button.connect('clicked', self.on_export_clicked, None)
+        self.delete__button = self.builder.get_object('delete_')
+        self.delete__button.connect('clicked', self.delete_from_list, None)
         self.export_file_button = self.builder.get_object('filechooserbutton2')
         self.import_window.show()
 
