@@ -207,7 +207,13 @@ class gui:
             self.delete__button.set_sensitive(True)
         else:
             self.delete__button.set_sensitive(False)
+    
+    def get_wrap_width(self):
+        return (self.list_window.get_size()[0] - 50)
         
+    def dynamic_wrap(self, window, allocation, args=None):
+        self.cell.set_property('wrap-width', self.get_wrap_width())
+    
     def __init__(self):
         self.builder = gtk.Builder()
         self.builder.add_from_file(GLADE_FILE)
@@ -220,6 +226,7 @@ class gui:
         self.b_import_next.connect('clicked', self.on_import_next_clicked, None)
         self.list_window = self.builder.get_object('listWindow')
         self.list_window.connect('destroy', self.on_list_window_destroyed, None)
+        self.list_window.connect('size-allocate', self.dynamic_wrap, None)
         self.list_scroller = self.builder.get_object('scrolledwindow1')
         self.treeview = gtk.TreeView()
         self.tvcolumn = gtk.TreeViewColumn('Entries')
@@ -227,7 +234,7 @@ class gui:
         self.cell = gtk.CellRendererText()
         self.cell.set_property('editable', True)
         self.cell.set_property('wrap-mode', gtk.WRAP_WORD)
-        self.cell.set_property('wrap-width', 200)
+        self.cell.set_property('wrap-width', self.get_wrap_width())
         self.cell.connect('edited', self.cell_edited_cb, None)
         self.tvcolumn.pack_start(self.cell, True)
         self.tvcolumn.add_attribute(self.cell, 'text', 0)
