@@ -8,6 +8,9 @@ class gui:
     def parse_file(self, filename):
         f = open(filename, 'r')
         self.entries = f.read().split('\n')
+        self.savedEntries = []
+        for i in self.entries:
+            self.savedEntries.append(i)
     
     def on_file_set(self, widget=None, event=None):
         if self.file_button.get_filename() is not None:
@@ -17,16 +20,40 @@ class gui:
         self.treestore.clear()
         for entry in self.entries:
             self.treestore.append(None, [entry])
+        if self.savedEntries != self.entries:
+            self.saveButton.set_sensitive(True)
+        else:
+            self.saveButton.set_sensitive(False)
         
     
     def on_import_next_clicked(self, widget=None, event=None):
-        self.parse_file(self.file_button.get_filename())
+        self.filename = self.file_button.get_filename()
+        self.parse_file(self.filename)
         self.import_window.hide()
         self.refresh_list()
         self.list_window.show()
-        
-    def on_list_window_destroyed(self, widget=None, event=None):
+    
+    def saveYesButtonClicked(self, widget=None, event=None):
+        self.save(self.filename)
         gtk.main_quit()
+    
+    def showSaveDialog(self):
+        window = self.builder.get_object('saveOnExitDialog')
+        saveYesButton = self.builder.get_object('saveYesButton')
+        saveYesButton.connect('clicked', self.saveYesButtonClicked, None)
+        saveNoButton = self.builder.get_object('saveNoButton')
+        saveNoButton.connect('clicked', gtk.main_quit, None)
+        window.connect('delete-event', gtk.main_quit, None)
+        window.show()
+        
+        
+    def on_list_window_destroyed(self, widge=None, event=None, data=None):
+        #return True
+        if self.savedEntries != self.entries:
+            self.showSaveDialog()
+        else:
+            gtk.main_quit()
+        return True
         
     def edit(self, widget=None, event=None):
         #self.entry_frame.hide()
@@ -176,16 +203,8 @@ class gui:
 
     def on_export_clicked(self, widget=None, event=None):
         filename = self.export_file_button.get_filename()
-        if filename.endswith('.txt'):
-            f = open(filename, 'w')
-            f.write('\n'.join(self.entries))
-            f.close()
-        elif filename.endswith('.pot'):
-            self.save_to_pot(filename)
-        elif filename.endswith('.html'):
-            self.save_to_html(filename)
-        elif filename.endswith('.csv'):
-            self.save_to_csv(filename)
+        self.save(filename)
+
             
     def cell_edited_cb(self, cell, path, new_text, user_data):
         path = int(path)
@@ -213,6 +232,25 @@ class gui:
         
     def dynamic_wrap(self, window, allocation, args=None):
         self.cell.set_property('wrap-width', self.get_wrap_width())
+        
+    def save(self, filename):
+        if filename.endswith('.txt'):
+            f = open(filename, 'w')
+            f.write('\n'.join(self.entries))
+            f.close()
+        elif filename.endswith('.pot'):
+            self.save_to_pot(filename)
+        elif filename.endswith('.html'):
+            self.save_to_html(filename)
+        elif filename.endswith('.csv'):
+            self.save_to_csv(filename)
+    
+    def onSaveClicked(self, widget=None, event=None):
+        self.save(self.filename)
+        self.savedEntries = []
+        for i in self.entries:
+            self.savedEntries.append(i)
+        widget.set_sensitive(False)
     
     def __init__(self):
         self.builder = gtk.Builder()
@@ -225,7 +263,7 @@ class gui:
         self.b_import_next = self.builder.get_object('next')
         self.b_import_next.connect('clicked', self.on_import_next_clicked, None)
         self.list_window = self.builder.get_object('listWindow')
-        self.list_window.connect('destroy', self.on_list_window_destroyed, None)
+        self.list_window.connect('delete-event', self.on_list_window_destroyed, None)
         self.list_window.connect('size-allocate', self.dynamic_wrap, None)
         self.list_scroller = self.builder.get_object('scrolledwindow1')
         self.treeview = gtk.TreeView()
@@ -253,6 +291,8 @@ class gui:
         self.delete__button = self.builder.get_object('delete_')
         self.delete__button.connect('clicked', self.delete_from_list, None)
         self.export_file_button = self.builder.get_object('filechooserbutton2')
+        self.saveButton = self.builder.get_object('saveButton')
+        self.saveButton.connect('clicked', self.onSaveClicked, None)
         self.import_window.show()
 
 if __name__ == '__main__':
