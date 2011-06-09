@@ -1,23 +1,6 @@
-Open new chats in separate windows
-Play a sound for incoming messages
-Play a sound for new conversations
-Play a sound for outgoing messages
-Play a sound when a contact logs in
-Play a sound when a contact logs out
-Play a sound when we log in
-Play a sound when we log out
-Pop up notifications if the chat isn't focused
-Pop up notifications when a contact logs in
-Pop up notifications when a contact logs out
 Show avatars
-Show contact list in rooms
-Show hint about closing the main window
 Show offline contacts
-Show protocols
-Unknown reason
-Available
 Busy
-Away
 Invisible
 Offline
 Unknown

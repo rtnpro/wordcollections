@@ -19,7 +19,7 @@ class gui:
     def refresh_list(self):
         self.treestore.clear()
         for entry in self.entries:
-            self.treestore.append(None, [entry])
+            self.treestore.append(None, [None, entry])
         if self.savedEntries != self.entries:
             self.saveButton.set_sensitive(True)
         else:
@@ -207,25 +207,48 @@ class gui:
 
             
     def cell_edited_cb(self, cell, path, new_text, user_data):
+        model, iter = self.selection.get_selected()
         path = int(path)
         if new_text.strip() == '':
             self.entries.remove(self.entries[path])
+            self.treestore.remove(model.get_iter(path))
+            if path == 0:
+                self.selection.select_path(0)
+            else:
+                self.selection.select_path(path-1)
         else:
             self.entries[path] = new_text
-        self.refresh_list()
+        #self.refresh_list()
     
     def delete_from_list(self, widget=None, event=None):
         model, iter = self.selection.get_selected()
         path = int(model.get_path(iter)[0])
-        self.entries.remove(self.entries[path])
-        self.refresh_list()
-    
+        deleteList = list(self.toDeleteList)
+        deleteList.reverse()
+        for i in deleteList:
+            if i<=path:
+                diff = len(deleteList[deleteList.index(i):])
+                path = path - diff
+                if path < 0:
+                    path = 0
+                break
+        for i in deleteList:
+            self.entries.remove(self.entries[i])
+            self.treestore.remove(model.get_iter(i))
+        #self.refresh_list()
+        self.toDeleteList.clear()
+        self.selection.select_path(path)
+        self.saveButton.set_sensitive(True)
+
     def tree_select_changed(self, widget=None, event=None):
         model, iter = self.selection.get_selected()
         if iter is not None:
+            path = model.get_path(iter)
+        """
+        if iter is not None:
             self.delete__button.set_sensitive(True)
         else:
-            self.delete__button.set_sensitive(False)
+            self.delete__button.set_sensitive(False)"""
     
     def get_wrap_width(self):
         return (self.list_window.get_size()[0] - 50)
@@ -251,7 +274,20 @@ class gui:
         for i in self.entries:
             self.savedEntries.append(i)
         widget.set_sensitive(False)
-    
+
+    def selection_toggled(self, widget=None, path=None, model=None):
+        model[path][0] = not model[path][0]
+        if model[path][0]:
+            self.toDeleteList.add(int(path))
+        else:
+            self.toDeleteList.remove(int(path))
+        if len(self.toDeleteList)>0:
+            self.delete__button.set_sensitive(True)
+        else:
+            self.delete__button.set_sensitive(False)
+
+
+
     def __init__(self):
         self.builder = gtk.Builder()
         self.builder.add_from_file(GLADE_FILE)
@@ -267,6 +303,15 @@ class gui:
         self.list_window.connect('size-allocate', self.dynamic_wrap, None)
         self.list_scroller = self.builder.get_object('scrolledwindow1')
         self.treeview = gtk.TreeView()
+        self.treestore = gtk.TreeStore(bool, str)
+        self.togglecell = gtk.CellRendererToggle()
+        self.togglecell.set_property("activatable", True)
+        self.togglecell.connect("toggled", self.selection_toggled, self.treestore )
+        self.SelectColumn = gtk.TreeViewColumn('Select', self.togglecell)
+        self.treeview.append_column(self.SelectColumn)
+        self.SelectColumn.pack_start(self.togglecell, True)
+        self.SelectColumn.add_attribute(self.togglecell, "active", 0)
+
         self.tvcolumn = gtk.TreeViewColumn('Entries')
         self.treeview.append_column(self.tvcolumn)
         self.cell = gtk.CellRendererText()
@@ -275,8 +320,8 @@ class gui:
         self.cell.set_property('wrap-width', self.get_wrap_width())
         self.cell.connect('edited', self.cell_edited_cb, None)
         self.tvcolumn.pack_start(self.cell, True)
-        self.tvcolumn.add_attribute(self.cell, 'text', 0)
-        self.treestore = gtk.TreeStore(str)
+        self.tvcolumn.add_attribute(self.cell, 'text', 1)
+
         self.treeview.set_model(self.treestore)
         self.treeview.expand_all()
         self.selection = self.treeview.get_selection()
@@ -293,6 +338,7 @@ class gui:
         self.export_file_button = self.builder.get_object('filechooserbutton2')
         self.saveButton = self.builder.get_object('saveButton')
         self.saveButton.connect('clicked', self.onSaveClicked, None)
+        self.toDeleteList = set()
         self.import_window.show()
 
 if __name__ == '__main__':
