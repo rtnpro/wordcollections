@@ -1,8 +1,5 @@
 Show avatars
 Show offline contacts
-Busy
-Invisible
-Offline
 Unknown
 Name in use
 People Nearby

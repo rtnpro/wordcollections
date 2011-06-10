@@ -208,6 +208,7 @@ class gui:
             
     def cell_edited_cb(self, cell, path, new_text, user_data):
         model, iter = self.selection.get_selected()
+        current_text = model.get_value(iter, 1)
         path = int(path)
         if new_text.strip() == '':
             self.entries.remove(self.entries[path])
@@ -216,8 +217,12 @@ class gui:
                 self.selection.select_path(0)
             else:
                 self.selection.select_path(path-1)
+            self.saveButton.set_sensitive(True)
         else:
             self.entries[path] = new_text
+            self.treestore.set_value(iter, 1, new_text)
+            if new_text != current_text:
+                self.saveButton.set_sensitive(True)
         #self.refresh_list()
     
     def delete_from_list(self, widget=None, event=None):
@@ -338,6 +343,7 @@ class gui:
         self.export_file_button = self.builder.get_object('filechooserbutton2')
         self.saveButton = self.builder.get_object('saveButton')
         self.saveButton.connect('clicked', self.onSaveClicked, None)
+        self.editedList = set()
         self.toDeleteList = set()
         self.import_window.show()
 
