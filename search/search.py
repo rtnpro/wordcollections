@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import Levenshtein as l
 
 def fuzzy_match(searchPhrase, sentence):
     """
@@ -14,12 +15,15 @@ def fuzzy_match(searchPhrase, sentence):
             keysFound.append(searchKey)
 
     totalWords = len(sentence.split())
+    """
     try:
         ratio = match/float(totalWords)
         if (ratio < 0):
             ratio = 0.0
     except:
         ratio = 0.0
+    """
+    ratio = l.ratio(searchPhrase, sentence)
 
     return (match, (ratio, keysFound))
 
@@ -45,7 +49,8 @@ def search(searchPhrase, lines):
                 else:
                     d[match] = [(ratio, formatted_sentence)]
         else:
-            ratio = len(searchPhrase)/float(len(line))
+            #ratio = len(searchPhrase)/float(len(line))
+            ratio = l.ratio(searchPhrase, line)
             formatted_sentence = formatted_sentence.replace(searchPhrase, "<b>"+searchPhrase+"</b>",1)
             if d.has_key('contains'):
                 d['contains'].append((ratio, formatted_sentence))
@@ -71,7 +76,10 @@ if __name__ == '__main__':
         print "-"*70
         print "CONTAINS"
         print "-"*70
-        for entry in d['contains']:
+        entries = d['contains']
+        entries.sort()
+        entries.reverse()
+        for entry in entries:
             print entry[1]
     keys = d.keys()
     keys.remove('contains')
