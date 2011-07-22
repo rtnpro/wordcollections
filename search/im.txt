@@ -1,0 +1,5191 @@
+Show avatars
+Show offline contacts
+Unknown
+Name in use
+People Nearby
+Yahoo! Japan
+Google Talk
+Facebook Chat
+Account
+Password
+Server
+Port
+Username:
+L_og in
+New account
+Advanced
+Screen _Name:
+Login I_D:
+Ch_aracter set:
+ICQ _UIN:
+Auto
+UDP
+TCP
+TLS
+Register
+Options
+None
+Character set:
+Network
+Nickname:
+Quit message:
+Real name:
+What is your IRC nickname?
+Which IRC network?
+Priori_ty:
+Reso_urce:
+First Name:
+Jabber ID:
+Last Name:
+Published Name:
+Authentication username:
+Interval (seconds)
+Keep-Alive Options
+Loose Routing
+Mechanism:
+NAT Traversal Options
+Proxy Options
+STUN Server:
+Transport:
+Select Your Avatar Image
+Failed to open private chat
+Topic not supported on this conversation
+You are not allowed to change the topic
+/clear: clear all messages from the current conversation
+/topic <topic>: set the topic of the current conversation
+/join <chat room ID>: join a new chat room
+/j <chat room ID>: join a new chat room
+/query <contact ID> [<message>]: open a private chat
+/msg <contact ID> <message>: open a private chat
+/nick <nickname>: change your nickname on the current server
+/me <message>: send an ACTION message to the current conversation
+offline
+invalid contact
+permission denied
+too long message
+not implemented
+Topic:
+Insert Smiley
+Send
+%s was kicked
+%1$s was banned by %2$s
+%s was banned
+%s has left the room
+%s has joined the room
+%s is now known as %s
+Disconnected
+Join
+Connected
+Conversation
+Personal Information
+New Contact
+Block
+Report this contact as abusive
+Subscription Request
+Block User
+Ungrouped
+Favorite People
+Removing contact
+Add Contact…
+Block Contact
+Chat
+Audio Call
+Video Call
+Previous Conversations
+Send File
+Share My Desktop
+Favorite
+Inviting you to this room
+Invite to Chat Room
+Search contacts
+Search: 
+Add Contact
+No contacts found
+Select a contact
+Save Avatar
+Alias:
+Client:
+Contact Details
+Identifier:
+Add Group
+Group
+Linked Contacts
+New contact preview
+Link Contacts…
+Delete and _Block
+Online from a phone or mobile device
+Choose an IRC network
+Reset _Networks List
+Unlink…
+Link
+Conversations
+Previous Conversations
+C_hat
+New Conversation
+Send _Video
+C_all
+New Call
+Custom Message…
+Edit Custom Messages…
+Click to remove this status as a favorite
+Click to make this status a favorite
+Set status
+Set your presence and current status
+Received an instant message
+Sent an instant message
+Incoming chat request
+Contact connected
+Contact disconnected
+Connected to server
+Disconnected from server
+Incoming voice call
+Outgoing voice call
+Voice call ended
+Save _New Status Message
+Saved Status Messages
+Don't connect on startup
+Yes, import my account details from 
+Yes, I'll enter my account details now
+No, I want a new account
+No, I just want to see people online nearby for now
+Select the accounts you want to import:
+Yes
+No, that's all for now
+Edit->Accounts
+I do _not want to enable this feature for now
+telepathy-salut not installed
+Messaging and VoIP Accounts Assistant
+Welcome to Empathy
+Import your existing accounts
+Please enter personal details
+There are unsaved modifications to your %s account.
+Your new account has not been saved yet.
+Connecting…
+Offline — %s
+Disconnected — %s
+Offline — No Network Connection
+Unknown Status
+Offline — Account Disabled
+Do you want to remove %s from your computer?
+This will not remove your account on the server.
+Enable
+Disable
+Loading account information
+No protocol installed
+Protocol:
+Add…
+Import…
+ - Empathy authentication client
+Empathy authentication client
+People nearby
+- Empathy Audio/Video Client
+Empathy Audio/Video Client
+Contrast
+Brightness
+Gamma
+Volume
+Sidebar
+Audio input
+Video input
+Dialpad
+Details
+Call with %s
+Call
+The IP address as seen by the machine
+The IP address as seen by a server on the Internet
+The IP address of the peer as seen by the other side
+The IP address of a relay server
+The IP address of the multicast group
+Connected — %d:%02dm
+Technical Details
+There was a failure on the network
+There was a failure in the call engine
+The end of the stream was reached
+Can't establish audio stream
+Can't establish video stream
+Audio
+Call the contact again
+Camera Off
+Camera On
+Decoding Codec:
+Disable camera and stop sending video
+Enable camera and send video
+Enable camera but don't send video
+Encoding Codec:
+Hang up
+Hang up current call
+Local Candidate:
+Preview
+Redial
+Remote Candidate:
+Send Audio
+Toggle audio transmission
+V_ideo
+Video
+Video Off
+Video On
+Video Preview
+Call
+View
+%s (%d unread)
+%s (%d unread)
+%s (and %u other)
+%s (and %u others)
+%s (%d unread from others)
+%s (%d unread from others)
+%s (%d unread from all)
+%s (%d unread from all)
+Typing a message.
+C_lear
+C_ontact
+Chat
+Insert _Smiley
+Invite _Participant…
+Move Tab _Left
+Move Tab _Right
+Notify for All Messages
+Contents
+Conversation
+Detach Tab
+Edit
+Favorite Chat Room
+Help
+Next Tab
+Previous Tab
+Show Contact List
+Tabs
+Undo Close Tab
+Name
+Room
+Auto-Connect
+Manage Favorite Rooms
+Incoming video call
+Incoming call
+%s is video calling you. Do you want to answer?
+%s is calling you. Do you want to answer?
+Incoming call from %s
+Reject
+Answer
+Incoming video call from %s
+Room invitation
+Invitation to join %s
+%s is inviting you to join %s
+Decline
+Join
+%s invited you to join %s
+You have been invited to join %s
+Incoming file transfer from %s
+Password required
+%s would like permission to see when you are online
+%u:%02u.%02u
+%02u.%02u
+Unknown
+%s of %s at %s/s
+%s of %s
+Receiving \"%s\" from %s
+Sending \"%s\" to %s
+Error receiving \"%s\" from %s
+Error receiving a file
+Error sending \"%s\" to %s
+Error sending a file
+\"%s\" received from %s
+\"%s\" sent to %s
+File transfer completed
+Waiting for the other participant's response
+Checking integrity of \"%s\"
+Hashing \"%s\"
+%
+File
+Remaining
+File Transfers
+Remove completed, canceled and failed file transfers from the list
+Import Accounts
+Import
+Protocol
+Source
+Provide Password
+Disconnect
+No match found
+Reconnect
+Edit Account
+Close
+Contact
+Contact List
+Show and edit accounts
+Contacts on a _Map
+Find in Contact _List
+Join _Favorites
+Manage Favorites
+N_ormal Size
+New _Call…
+Normal Size With _Avatars
+P_references
+Show P_rotocols
+Sort by _Name
+Sort by _Status
+Accounts
+Blocked Contacts
+Compact Size
+Debug
+File Transfers
+Join…
+New Conversation…
+Offline Contacts
+Personal Information
+Room
+Search for Contacts…
+Chat Room
+Members
+No
+Could not start room listing
+Could not stop room listing
+Couldn't load room list
+Join Room
+Room List
+Room:
+Message received
+Message sent
+New conversation
+Contact goes online
+Contact goes offline
+Account connected
+Account disconnected
+Language
+Preferences
+Appearance
+Behavior
+Chat Th_eme:
+Disable notifications when _away or busy
+Disable sounds when _away or busy
+Display incoming events in the notification area
+Enable notifications when a contact comes online
+Enable notifications when a contact goes offline
+Enable notifications when the _chat is not focused
+Enable spell checking for languages:
+General
+Location sources:
+Log conversations
+Notifications
+Play sound for events
+Privacy
+Show _smileys as images
+Show contact _list in rooms
+Sounds
+Spell Checking
+Themes
+Automatically connect on startup
+Cellphone
+Enable bubble notifications
+Enable sound notifications
+GPS
+Network (IP, Wi-Fi)
+Open new chats in separate windows
+Publish location to my contacts
+Reduce location accuracy
+Status
+Quit
+Contact Map View
+Save
+Debug Window
+Pause
+Level 
+Debug
+Info
+Message
+Warning
+Critical
+Error
+Time
+Domain
+Category
+Level
+Invite Participant
+Choose a contact to invite into the conversation:
+Invite
+Don't display any dialogs; do any work (eg, importing) and exit
+Initially select given account (eg, gabble/jabber/foo_40example_2eorg0)
+<account-id>
+- Empathy Accounts
+Empathy Accounts
+Empathy Debugger
+- Empathy Chat Client
+Respond
+Reject
+Answer
+Decline
+Accept
+Missed call from %s
+%s just tried to call you, but you were in another call.
+Finch
+%s. Try `%s -h' for more information.\n
+Error
+Account was not modified
+Account was not added
+Username of an account must be non-empty.
+New mail notifications
+Remember password
+There are no protocol plugins installed.
+(You probably forgot to 'make install'.)
+Modify Account
+New Account
+Protocol:
+Username:
+Password:
+Alias:
+Create this account on the server
+Cancel
+Save
+Are you sure you want to delete %s?
+Delete Account
+Delete
+Accounts
+You can enable/disable accounts from the following list.
+Add
+Modify
+%s%s%s%s has made %s his or her buddy%s%s
+Add buddy to your list?
+%s%s%s%s wants to add %s to his or her buddy list%s%s
+Authorize buddy?
+Authorize
+Deny
+Account: %s (%s)
+Default
+You must provide a username for the buddy.
+You must provide a group.
+You must select an account.
+The selected account is not online.
+Error adding buddy
+Username
+Alias (optional)
+Invite message (optional)
+Add in group
+Account
+Add Buddy
+Please enter buddy information.
+Chats
+Name
+Alias
+Group
+Auto-join
+Add Chat
+You can edit more information from the context menu later.
+Error adding group
+You must give a name for the group to add.
+Add Group
+Enter the name of the group
+Edit Chat
+Please Update the necessary fields.
+Edit
+Edit Settings
+Information
+Retrieving...
+Get Info
+Add Buddy Pounce
+Send File
+Blocked
+Show when offline
+Please enter the new name for %s
+Rename
+Set Alias
+Enter empty string to reset the name.
+Removing this contact will also remove all the buddies in the contact
+Removing this group will also remove all the buddies in the group
+Are you sure you want to remove %s?
+Confirm Remove
+Remove
+Buddy List
+Place tagged
+Toggle Tag
+View Log
+Nickname
+Idle
+On Mobile
+New...
+Saved...
+Plugins
+Block/Unblock
+Block
+Unblock
+OK
+New Instant Message
+Please enter the username or alias of the person you would like to IM.
+Channel
+Join a Chat
+Please enter the name of the chat you want to join.
+Join
+Options
+Send IM...
+Block/Unblock...
+Join Chat...
+View Log...
+View All Logs
+Show
+Empty groups
+Offline buddies
+Sort
+By Status
+Alphabetically
+By Log Size
+Buddy
+Chat
+Grouping
+Certificate Import
+Specify a hostname
+Type the host name this certificate is for.
+Certificate Import Error
+X.509 certificate import failed
+Select a PEM certificate
+Certificate Export Error
+X.509 certificate export failed
+PEM X.509 Certificate Export
+Certificate for %s
+SSL Host Certificate
+Really delete certificate for %s?
+Confirm certificate delete
+Certificate Manager
+Hostname
+Info
+Close
+%s (%s)
+%s disconnected.
+Re-enable Account
+No such command.
+Syntax Error:  You typed the wrong number of arguments to that command.
+Your command failed for an unknown reason.
+That command only works in chats, not IMs.
+That command only works in IMs, not chats.
+That command doesn't work on this protocol.
+Message was not sent, because you are not signed on.
+%s (%s -- %s)
+%s [%s]
+You have left this chat.
+Logging started. Future messages in this conversation will be logged.
+Send To
+Conversation
+Clear Scrollback
+Show Timestamps
+Add Buddy Pounce...
+Invite...
+Enable Logging
+Enable Sounds
+You are not connected.
+<AUTO-REPLY> 
+List of %d user:\n
+List of %d users:\n
+Supported debug options are: plugins version
+No such command (in this context).
+%s is not a valid color. See '/help msgcolor' for valid colors.
+me &lt;action&gt;:  Send an IRC style action to a buddy or chat.
+clear: Clears the conversation scrollback.
+help &lt;command&gt;:  Help on a specific command.
+users:  Show the list of users in the chat.
+plugins: Show the plugins window.
+buddylist: Show the buddylist.
+accounts: Show the accounts window.
+debugwin: Show the debug window.
+prefs: Show the preference window.
+statuses: Show the savedstatuses window.
+Unable to open file.
+Debug Window
+Clear
+Filter:
+Pause
+File Transfers - %d%% of %d file
+File Transfers - %d%% of %d files
+File Transfers
+Progress
+Filename
+Size
+Speed
+Remaining
+Status
+Close this window when all transfers finish
+Clear finished transfers
+Stop
+Waiting for transfer to begin
+Cancelled
+Failed
+%.2f KiB/s
+Sent
+Received
+Finished
+The file was saved as %s.
+Sending
+Receiving
+Conversation in %s on %s
+Conversation with %s on %s
+%B %Y
+No logs were found
+Total log size:
+Scroll/Search: 
+Conversations in %s
+Conversations with %s
+All Conversations
+System Log
+Calling...
+Hangup
+Accept
+Reject
+Call in progress.
+The call has been terminated.
+%s wishes to start an audio session with you.
+%s is trying to start an unsupported media session type with you.
+You have rejected the call.
+call: Make an audio call.
+Emails
+You have mail!
+Sender
+Subject
+%s (%s) has %d new message.
+%s (%s) has %d new messages.
+New Mail
+Info for %s
+Buddy Information
+Continue
+IM
+Invite
+(none)
+URI
+ERROR
+loading plugin failed
+unloading plugin failed
+Plugin need to be loaded before you can configure it.
+No configuration options for this plugin.
+Error loading plugin
+The selected file is not a valid plugin.
+Select plugin to install
+You can (un)load plugins from the following list.
+Install Plugin...
+Configure Plugin
+Preferences
+Please enter a buddy to pounce.
+New Buddy Pounce
+Edit Buddy Pounce
+Pounce Who
+Account:
+Buddy name:
+Pounce When Buddy...
+Signs on
+Signs off
+Goes away
+Returns from away
+Becomes idle
+Is no longer idle
+Starts typing
+Pauses while typing
+Stops typing
+Sends a message
+Action
+Open an IM window
+Pop up a notification
+Send a message
+Execute a command
+Play a sound
+Pounce only when my status is not Available
+Recurring
+Cannot create pounce
+You do not have any accounts.
+You must create an account first before you can create a pounce.
+Are you sure you want to delete the pounce on %s for %s?
+Buddy Pounces
+%s has started typing to you (%s)
+%s has paused while typing to you (%s)
+%s has signed on (%s)
+%s has returned from being idle (%s)
+%s has returned from being away (%s)
+%s has stopped typing to you (%s)
+%s has signed off (%s)
+%s has become idle (%s)
+%s has gone away. (%s)
+%s has sent you a message. (%s)
+Unknown pounce event. Please report this!
+Based on keyboard use
+From last sent message
+Never
+Show Idle Time
+Show Offline Buddies
+Notify buddies when you are typing
+Log format
+Log IMs
+Log chats
+Log status change events
+Report Idle time
+Change status when idle
+Minutes before changing status
+Change status to
+Conversations
+Logging
+You must fill all the required fields.
+The required fields are underlined.
+Not implemented yet.
+Save File...
+Open File...
+Choose Location...
+Hit 'Enter' to find more rooms of this category.
+Get
+Room List
+Buddy logs in
+Buddy logs out
+Message received
+Message received begins conversation
+Message sent
+Person enters chat
+Person leaves chat
+You talk in chat
+Others talk in chat
+Someone says your username in chat
+Attention received
+GStreamer Failure
+GStreamer failed to initialize.
+(default)
+Select Sound File ...
+Sound Preferences
+Profiles
+Automatic
+Console Beep
+Command
+No Sound
+Sound Method
+Method: 
+Sound Options
+Sounds when conversation has focus
+Always
+Only when available
+Only when not available
+Volume(0-100):
+Sound Events
+Event
+File
+Test
+Reset
+Choose...
+Are you sure you want to delete \"%s\"
+Delete Status
+Saved Statuses
+Title
+Type
+Message
+Use
+Invalid title
+Please enter a non-empty title for the status.
+Duplicate title
+Please enter a different title for the status.
+Substatus
+Status:
+Message:
+Edit Status
+Use different status for following accounts
+Save & Use
+Certificates
+Sounds
+Statuses
+Error loading the plugin.
+Couldn't find X display
+Couldn't find window
+This plugin cannot be loaded because it was not built with X11 support.
+GntClipboard
+Clipboard plugin
+%s just signed on
+%s just signed off
+%s sent you a message
+%s said your nick in %s
+%s sent a message in %s
+Buddy signs on/off
+You receive an IM
+Someone speaks in a chat
+Someone says your name in a chat
+Notify with a toaster when
+Beep too!
+Set URGENT for the terminal window.
+GntGf
+Toaster plugin
+<b>Conversation with %s on %s:</b><br>
+History Plugin Requires Logging
+GntHistory
+Shows recently logged conversations in new conversations.
+TinyURL for above: %s
+Please wait while TinyURL fetches a shorter URL ...
+Only create TinyURL for URLs of this length or greater
+TinyURL (or other) address prefix
+TinyURL
+TinyURL plugin
+When receiving a message with URL(s), use TinyURL for easier copying
+Online
+Offline
+Online Buddies
+Offline Buddies
+Online/Offline
+Meebo
+No Grouping
+Nested Subgroup
+Nested Grouping (experimental)
+Provides alternate buddylist grouping options.
+Lastlog
+lastlog: Searches for a substring in the backlog.
+GntLastlog
+Lastlog plugin.
+accounts
+Password is required to sign on.
+Enter password for %s (%s)
+Enter Password
+Save password
+Missing protocol plugin for %s
+Connection Error
+New passwords do not match.
+Fill out all fields completely.
+Original password
+New password
+New password (again)
+Change password for %s
+Please enter your current password and your new password.
+Change user information for %s
+Set User Info
+This protocol does not support setting a public alias.
+This protocol does not support fetching the public alias.
+Unknown
+Buddies
+buddy list
+The certificate is self-signed and cannot be automatically checked.
+The certificate presented is not issued to this domain.
+The certificate chain presented is invalid.
+The certificate has been revoked.
+An unknown certificate error occurred.
+(DOES NOT MATCH)
+%s has presented the following certificate for just-this-once use:
+Single-use Certificate Verification
+Certificate Authorities
+SSL Peers Cache
+Accept certificate for %s?
+SSL Certificate Verification
+View Certificate...
+The certificate for %s could not be validated.
+SSL Certificate Error
+Unable to validate certificate
+Certificate Information
+Registration Error
+Unregistration Error
++++ %s signed on
++++ %s signed off
+Unknown error
+Unable to send message: The message is too large.
+Unable to send message to %s.
+The message is too large.
+Unable to send message.
+Send Message
+Send Message
+%s entered the room.
+%s [<I>%s</I>] entered the room.
+You are now known as %s
+%s is now known as %s
+%s left the room.
+%s left the room (%s).
+Invite to chat
+Failed to get connection: %s
+Failed to get name: %s
+Failed to get serv name: %s
+Purple's D-BUS server is not running for the reason listed below
+No name
+Unable to create new resolver process\n
+Unable to send request to resolver process\n
+Error resolving %s: %d
+Resolver process exited without answering our request
+Error converting %s to punycode: %d
+Thread creation failure: %s
+Unknown reason
+Directory is not writable.
+Cannot send a file of 0 bytes.
+Cannot send a directory.
+%s is not a regular file. Cowardly refusing to overwrite it.\n
+File is not readable.
+%s wants to send you %s (%s)
+%s wants to send you a file
+Accept file transfer request from %s?
+%s is offering to send file %s
+%s is not a valid filename.\n
+Offering to send %s to %s
+Starting transfer of %s from %s
+Transfer of file <A HREF=\"file://%s\">%s</A> complete
+Transfer of file %s complete
+File transfer complete
+You cancelled the transfer of %s
+File transfer cancelled
+%s cancelled the transfer of %s
+%s cancelled the file transfer
+File transfer to %s failed.
+File transfer from %s failed.
+Run the command in a terminal
+The command used to handle \"aim\" URLs, if enabled.
+The command used to handle \"gg\" URLs, if enabled.
+The command used to handle \"icq\" URLs, if enabled.
+The command used to handle \"irc\" URLs, if enabled.
+The command used to handle \"msnim\" URLs, if enabled.
+The command used to handle \"sip\" URLs, if enabled.
+The command used to handle \"xmpp\" URLs, if enabled.
+The command used to handle \"ymsgr\" URLs, if enabled.
+The handler for \"aim\" URLs
+The handler for \"gg\" URLs
+The handler for \"icq\" URLs
+The handler for \"irc\" URLs
+The handler for \"msnim\" URLs
+The handler for \"sip\" URLs
+The handler for \"xmpp\" URLs
+The handler for \"ymsgr\" URLs
+Whether the specified command should handle \"aim\" URLs
+Whether the specified command should handle \"gg\" URLs
+Whether the specified command should handle \"icq\" URLs
+Whether the specified command should handle \"irc\" URLs
+Whether the specified command should handle \"msnim\" URLs
+Whether the specified command should handle \"sip\" URLs
+Whether the specified command should handle \"xmpp\" URLs
+Whether the specified command should handle \"ymsgr\" URLs
+<b><font color=\"red\">The logger has no read function</font></b>
+HTML
+Plain text
+Old flat format
+Logging of this conversation failed.
+XML
+<font color=\"red\"><b>Unable to find log path!</b></font>
+<font color=\"red\"><b>Could not read file: %s</b></font>
+(%s) %s <AUTO-REPLY>: %s\n
+A non-recoverable Farsight2 error has occurred.
+Error with your microphone
+Error with your webcam
+Conference error
+Error creating session: %s
+You are using %s, but this plugin requires %s.
+This plugin has not defined an ID.
+Plugin magic mismatch %d (need %d)
+ABI version mismatch %d.%d.x (need %d.%d.x)
+Unable to load the plugin
+The required plugin %s was unable to load.
+Unable to load your plugin.
+%s requires %s, but it failed to unload.
+Autoaccept
+Auto-accept file transfer requests from selected users.
+Autoaccepted file transfer of \"%s\" from \"%s\" completed.
+Autoaccept complete
+When a file-transfer request arrives from %s
+Set Autoaccept Setting
+Save
+Cancel
+Ask
+Auto Accept
+Auto Reject
+Autoaccept File Transfers...
+Create a new directory for each user
+Escape the filenames
+Notes
+Enter your notes below...
+Edit Notes...
+Buddy Notes
+Store notes on particular buddies.
+Adds the option to store notes for buddies on your buddy list.
+Cipher Test
+Tests the ciphers that ship with libpurple.
+DBus Example
+DBus Plugin Example
+File Control
+Allows control by entering commands in a file.
+Minutes
+I'dle Mak'er
+Set Account Idle Time
+Set
+None of your accounts are idle.
+Unset Account Idle Time
+Unset
+Set Idle Time for All Accounts
+Unset Idle Time for All Idled Accounts
+Allows you to hand-configure how long you've been idle
+IPC Test Client
+Test plugin IPC support, as a client.
+IPC Test Server
+Test plugin IPC support, as a server.
+Test plugin IPC support, as a server. This registers the IPC commands.
+Hide Joins/Parts
+For rooms with more than this many people
+If user has not spoken in this many minutes
+Apply hiding rules to buddies
+Join/Part Hiding
+Hides extraneous join/part messages.
+(UTC)
+User is offline.
+Auto-response sent:
+%s has signed off.
+One or more messages may have been undeliverable.
+You were disconnected from the server.
+Message could not be sent because the maximum length was exceeded.
+Message could not be sent.
+Adium
+Fire
+Messenger Plus!
+QIP
+MSN Messenger
+Trillian
+aMSN
+General Log Reading Configuration
+Fast size calculations
+Use name heuristics
+Log Directory
+Log Reader
+Includes other IM clients' logs in the log viewer.
+Mono Plugin Loader
+Loads .NET plugins with Mono.
+Add new line in IMs
+Add new line in Chats
+New Line
+Prepends a newline to displayed message.
+Offline Message Emulation
+Save messages sent to an offline user as pounce.
+Offline Message
+You can edit/delete the pounce from the `Buddy Pounces' dialog
+Yes
+No
+Save offline messages in pounce
+Do not ask. Always save in pounce.
+One Time Password
+One Time Password Support
+Enforce that passwords are used only once.
+Perl Plugin Loader
+Provides support for loading perl plugins.
+Psychic Mode
+Psychic mode for incoming conversation
+You feel a disturbance in the force...
+Only enable for users on the buddy list
+Disable when away
+Display notification message in conversations
+Raise psychic conversations
+Signals Test
+Test to see that all signals are working properly.
+Simple Plugin
+Tests to see that most things are working.
+X.509 Certificates
+GNUTLS
+Provides SSL support through GNUTLS.
+NSS
+Provides SSL support through Mozilla NSS.
+SSL
+Provides a wrapper around SSL support libraries.
+%s is no longer away.
+%s has gone away.
+%s has become idle.
+%s is no longer idle.
+%s has signed on.
+Notify When
+Buddy Goes _Away
+Buddy Goes _Idle
+Buddy _Signs On/Off
+Buddy State Notification
+Tcl Plugin Loader
+Provides support for loading Tcl plugins
+Unable to listen for incoming IM connections
+First name
+Last name
+Email
+AIM Account
+XMPP Account
+Bonjour Protocol Plugin
+Purple Person
+Local Port
+Bonjour
+%s has closed the conversation.
+Unable to send the message, the conversation couldn't be started.
+Error communicating with local mDNSResponder.
+Invalid proxy settings
+Token Error
+Unable to fetch the token.\n
+Save Buddylist...
+Your buddylist is empty, nothing was written to the file.
+Buddylist saved successfully!
+Couldn't write buddy list for %s to %s
+Couldn't load buddylist
+Load Buddylist...
+Buddylist loaded successfully!
+Save buddylist...
+Load buddylist from file...
+You must fill in all registration fields
+Passwords do not match
+Unable to register new account.  An unknown error occurred.
+New Gadu-Gadu Account Registered
+Registration completed successfully!
+Password
+Password (again)
+Enter captcha text
+Captcha
+Register New Gadu-Gadu Account
+Please, fill in the following fields
+City
+Year of birth
+Gender
+Male or female
+Male
+Female
+Only online
+Find buddies
+Please, enter your search criteria below
+Fill in the fields.
+Your current password is different from the one that you specified.
+Unable to change password. Error occurred.\n
+Change password for the Gadu-Gadu account
+Password was changed successfully!
+Current password
+Password (retype)
+Enter current token
+Current token
+Please, enter your current password and your new password for UIN: 
+Change Gadu-Gadu Password
+Show status to:
+All people
+Only buddies
+Change status broadcasting
+Please, select who can see your status
+Select a chat for buddy: %s
+Add to chat...
+Available
+Chatty
+Do Not Disturb
+Away
+UIN
+First Name
+Birth Year
+Unable to display the search results.
+Gadu-Gadu Public Directory
+Search results
+No matching users found
+There are no users matching your search criteria.
+Unable to read from socket
+Buddy list downloaded
+Your buddy list was downloaded from the server.
+Buddy list uploaded
+Your buddy list was stored on the server.
+Connected
+Connection failed
+Add to chat
+Chat _name:
+Unable to resolve hostname '%s': %s
+Connecting
+Chat error
+This chat name is already in use
+Not connected to the server
+Find buddies...
+Change password...
+Upload buddylist to Server
+Download buddylist from Server
+Delete buddylist from Server
+Save buddylist to file...
+Gadu-Gadu Protocol Plugin
+Polish popular IM
+Gadu-Gadu User
+GG server
+Unknown command: %s
+current topic is: %s
+No topic is set
+File Transfer Failed
+Unable to open a listening port.
+Error displaying MOTD
+No MOTD available
+There is no MOTD associated with this connection.
+MOTD for %s
+Lost connection with server: %s
+View MOTD
+Channel:
+Password:
+IRC nick and server may not contain whitespace
+SSL support unavailable
+Unable to connect
+Unable to connect: %s
+Server closed the connection
+Users
+Topic
+IRC Protocol Plugin
+The IRC Protocol Plugin that Sucks Less
+Server
+Port
+Encodings
+Auto-detect incoming UTF-8
+Real name
+Use SSL
+Bad mode
+Ban on %s by %s, set %s ago
+Ban on %s
+End of ban list
+You are banned from %s.
+Banned
+Cannot ban %s: banlist is full
+ <i>(ircop)</i>
+ <i>(identified)</i>
+Nick
+Currently on
+Idle for
+Online since
+<b>Defining adjective:</b>
+Glorious
+%s has changed the topic to: %s
+%s has cleared the topic.
+The topic for %s is: %s
+Unknown message '%s'
+Unknown message
+The IRC server received a message it did not understand.
+Users on %s: %s
+Time Response
+The IRC server's local time is:
+No such channel
+no such channel
+User is not logged in
+No such nick or channel
+Could not send
+Joining %s requires an invitation.
+Invitation only
+You have been kicked by %s: (%s)
+Kicked by %s (%s)
+mode (%s %s) by %s
+Invalid nickname
+The nickname \"%s\" is already being used.
+Nickname in use
+Cannot change nick
+Could not change nick
+You have parted the channel%s%s
+Error: invalid PONG from server
+PING reply -- Lag: %lu seconds
+Cannot join %s: Registration is required.
+Cannot join channel
+Nick or channel is temporarily unavailable.
+Wallops from %s
+action &lt;action to perform&gt;:  Perform an action.
+authserv: Send a command to authserv
+ctcp <nick> <msg>: sends ctcp msg to nick.
+chanserv: Send a command to chanserv
+me &lt;action to perform&gt;:  Perform an action.
+memoserv: Send a command to memoserv
+names [channel]:  List the users currently in a channel.
+nick &lt;new nickname&gt;:  Change your nickname.
+nickserv: Send a command to nickserv
+notice &lt;target&lt;:  Send a notice to a user or channel.
+operserv: Send a command to operserv
+quit [message]:  Disconnect from the server, with an optional message.
+quote [...]:  Send a raw command to the server.
+time: Displays the current local time at the IRC server.
+topic [new topic]:  View or change the channel topic.
+umode &lt;+|-&gt;&lt;A-Za-z&gt;:  Set or unset a user mode.
+version [nick]: send CTCP VERSION request to a user
+whois [server] &lt;nick&gt;:  Get information on a user.
+whowas &lt;nick&gt;: Get information on a user that has logged off.
+Reply time from %s: %lu seconds
+PONG
+CTCP PING reply
+Disconnected.
+Unknown Error
+Ad-Hoc Command Failed
+execute
+Server requires plaintext authentication over an unencrypted stream
+Invalid response from server
+Server does not use any supported authentication method
+Plaintext Authentication
+You require encryption, but it is not available on this server.
+Invalid challenge from server
+Server thinks authentication is complete, but client does not
+Server may require plaintext authentication over an unencrypted stream
+SASL authentication failed
+SASL error: %s
+Invalid Encoding
+Unsupported Extension
+Server does not support channel binding
+Unsupported channel binding method
+User not found
+Invalid Username Encoding
+Resource Constraint
+Unable to canonicalize username
+Unable to canonicalize password
+Malicious challenge from server
+Unexpected response from server
+The BOSH connection manager terminated your session.
+No session ID given
+Unsupported version of BOSH protocol
+Unable to establish a connection with the server
+Unable to establish a connection with the server: %s
+Unable to establish SSL connection
+Full Name
+Family Name
+Given Name
+URL
+Street Address
+Extended Address
+Locality
+Region
+Postal Code
+Country
+Telephone
+Organization Name
+Organization Unit
+Job Title
+Role
+Birthday
+Description
+Edit XMPP vCard
+Client
+Operating System
+Local Time
+Priority
+Resource
+Uptime
+Logged Off
+%s ago
+Middle Name
+Address
+P.O. Box
+Photo
+Logo
+Cancel Presence Notification
+Un-hide From
+Temporarily Hide From
+(Re-)Request authorization
+Unsubscribe
+Initiate _Chat
+Log In
+Log Out
+JID
+Last Name
+The following are the results of your search
+Directory Query Failed
+Could not query the directory server.
+Server Instructions: %s
+Fill in one or more fields to search for any matching XMPP users.
+Email Address
+Search for XMPP users
+Search
+Invalid Directory
+Enter a User Directory
+Select a user directory to search
+Search Directory
+Room:
+Server:
+Handle:
+%s is not a valid room name
+Invalid Room Name
+%s is not a valid server name
+Invalid Server Name
+%s is not a valid room handle
+Invalid Room Handle
+Configuration error
+Unable to configure
+Room Configuration Error
+This room is not capable of being configured
+Registration error
+Nick changing not supported in non-MUC chatrooms
+Error retrieving room list
+Invalid Server
+Enter a Conference Server
+Select a conference server to query
+Find Rooms
+Affiliations:
+No users found
+Roles:
+Server requires TLS/SSL, but no TLS/SSL support was found.
+You require encryption, but no TLS/SSL support was found.
+Ping timed out
+Invalid XMPP ID
+Invalid XMPP ID. Username portion must be set.
+Invalid XMPP ID. Domain must be set.
+Malformed BOSH URL
+Registration of %s@%s successful
+Registration to %s successful
+Registration Successful
+Registration Failed
+Registration from %s successfully removed
+Unregistration Successful
+Unregistration Failed
+State
+Postal code
+Phone
+Date
+Already Registered
+Unregister
+Please fill out the information below to register your new account.
+Register New XMPP Account
+Register
+Change Account Registration at %s
+Register New Account at %s
+Change Registration
+Error unregistering account
+Account successfully unregistered
+Initializing Stream
+Initializing SSL/TLS
+Authenticating
+Re-initializing Stream
+Server doesn't support blocking
+Not Authorized
+Mood
+Now Listening
+Both
+From (To pending)
+From
+To
+None (To pending)
+None
+Subscription
+Mood Text
+Allow Buzz
+Mood Name
+Mood Comment
+Tune Artist
+Tune Title
+Tune Album
+Tune Genre
+Tune Comment
+Tune Track
+Tune Time
+Tune Year
+Tune URL
+Password Changed
+Your password has been changed.
+Error changing password
+Change XMPP Password
+Please enter your new password
+Set User Info...
+Change Password...
+Search for Users...
+Bad Request
+Conflict
+Feature Not Implemented
+Forbidden
+Gone
+Internal Server Error
+Item Not Found
+Malformed XMPP ID
+Not Acceptable
+Not Allowed
+Payment Required
+Recipient Unavailable
+Registration Required
+Remote Server Not Found
+Remote Server Timeout
+Server Overloaded
+Service Unavailable
+Subscription Required
+Unexpected Request
+Authorization Aborted
+Incorrect encoding in authorization
+Invalid authzid
+Invalid Authorization Mechanism
+Authorization mechanism too weak
+Temporary Authentication Failure
+Authentication Failure
+Bad Format
+Bad Namespace Prefix
+Resource Conflict
+Connection Timeout
+Host Gone
+Host Unknown
+Improper Addressing
+Invalid ID
+Invalid Namespace
+Invalid XML
+Non-matching Hosts
+Policy Violation
+Remote Connection Failed
+Restricted XML
+See Other Host
+System Shutdown
+Undefined Condition
+Unsupported Encoding
+Unsupported Stanza Type
+Unsupported Version
+XML Not Well Formed
+Stream Error
+Unable to ban user %s
+Unknown affiliation: \"%s\"
+Unable to affiliate user %s as \"%s\"
+Unknown role: \"%s\"
+Unable to set role \"%s\" for user: %s
+Unable to kick user %s
+Unable to ping user %s
+Unable to buzz, because there is nothing known about %s.
+Unable to buzz, because %s might be offline.
+Buzz
+%s has buzzed you!
+Buzzing %s...
+Unable to initiate media with %s: invalid JID
+Unable to initiate media with %s: user is not online
+Unable to initiate media with %s: not subscribed to user presence
+Media Initiation Failed
+Select a Resource
+Initiate Media
+Account does not support PEP, can't set mood
+config:  Configure a chat room.
+configure:  Configure a chat room.
+part [message]:  Leave the room.
+register:  Register with a chat room.
+topic [new topic]:  View or change the topic.
+ban &lt;user&gt; [reason]:  Ban a user from the room.
+invite &lt;user&gt; [message]:  Invite a user to the room.
+join: &lt;room&gt; [password]:  Join a chat on this server.
+kick &lt;user&gt; [reason]:  Kick a user from the room.
+ping &lt;jid&gt;:\tPing a user/component/server.
+buzz: Buzz a user to get their attention
+mood: Set current user mood
+Extended Away
+XMPP Protocol Plugin
+Domain
+Require encryption
+Use encryption if available
+Use old-style SSL
+Connection security
+Allow plaintext auth over unencrypted streams
+Connect port
+Connect server
+File transfer proxies
+BOSH URL
+Show Custom Smileys
+%s has left the conversation.
+Message from %s
+%s has set the topic to: %s
+The topic is: %s
+Message delivery to %s failed: %s
+XMPP Message Error
+(Code %s)
+A custom smiley in the message is too large to send.
+XMPP stream header missing
+XMPP Version Mismatch
+XMPP stream missing ID
+XML Parse error
+Error joining chat %s
+Error in chat %s
+Create New Room
+Configure Room
+Accept Defaults
+No reason
+You have been kicked: (%s)
+Kicked (%s)
+Unknown Error in presence
+Unable to send file to %s, user does not support file transfers
+File Send Failed
+Unable to send file to %s, invalid JID
+Unable to send file to %s, user is not online
+Unable to send file to %s, not subscribed to user presence
+Please select the resource of %s to which you would like to send a file
+Afraid
+Amazed
+Amorous
+Angry
+Annoyed
+Anxious
+Aroused
+Ashamed
+Bored
+Brave
+Calm
+Cautious
+Cold
+Confident
+Confused
+Contemplative
+Contented
+Cranky
+Crazy
+Creative
+Curious
+Dejected
+Depressed
+Disappointed
+Disgusted
+Dismayed
+Distracted
+Embarrassed
+Envious
+Excited
+Flirtatious
+Frustrated
+Grateful
+Grieving
+Grumpy
+Guilty
+Happy
+Hopeful
+Hot
+Humbled
+Humiliated
+Hungry
+Hurt
+Impressed
+In awe
+In love
+Indignant
+Interested
+Intoxicated
+Invincible
+Jealous
+Lonely
+Lost
+Lucky
+Mean
+Moody
+Nervous
+Neutral
+Offended
+Outraged
+Playful
+Proud
+Relaxed
+Relieved
+Remorseful
+Restless
+Sad
+Sarcastic
+Satisfied
+Serious
+Shocked
+Shy
+Sick
+Sleepy
+Spontaneous
+Stressed
+Strong
+Surprised
+Thankful
+Thirsty
+Tired
+Undefined
+Weak
+Worried
+Set User Nickname
+Please specify a new nickname for you.
+Set
+Set Nickname...
+Actions
+Select an action
+Unable to add \"%s\".
+Buddy Add error
+The username specified does not exist.
+Unable to parse message
+Syntax Error (probably a client bug)
+Invalid email address
+User does not exist
+Fully qualified domain name missing
+Already logged in
+Invalid username
+Invalid friendly name
+List full
+Already there
+Not on list
+User is offline
+Already in the mode
+Already in opposite list
+Too many groups
+Invalid group
+User not in group
+Group name too long
+Cannot remove group zero
+Tried to add a user to a group that doesn't exist
+Switchboard failed
+Notify transfer failed
+Required fields missing
+Too many hits to a FND
+Not logged in
+Service temporarily unavailable
+Database server error
+Command disabled
+File operation error
+Memory allocation error
+Wrong CHL value sent to server
+Server busy
+Server unavailable
+Peer notification server down
+Database connect error
+Server is going down (abandon ship)
+Error creating connection
+CVR parameters are either unknown or not allowed
+Unable to write
+Session overload
+User is too active
+Too many sessions
+Passport not verified
+Bad friend file
+Not expected
+Friendly name is changing too rapidly
+Server too busy
+Authentication failed
+Not allowed when offline
+Not accepting new users
+Kids Passport without parental consent
+Passport account not yet verified
+Passport account suspended
+Bad ticket
+Unknown Error Code %d
+MSN Error: %s\n
+Buddy list synchronization issue in %s (%s)
+Other Contacts
+Non-IM Contacts
+%s sent a wink. <a href='msn-wink://%s'>Click here to play it</a>
+%s sent a wink, but it could not be saved
+%s sent a voice clip. <a href='audio://%s'>Click here to play it</a>
+%s sent a voice clip, but it could not be saved
+%s sent you a voice chat invite, which is not yet supported.
+Nudge
+%s has nudged you!
+Nudging %s...
+Email Address...
+Your new MSN friendly name is too long.
+Set friendly name for %s.
+Set Friendly Name
+This is the name that other MSN buddies will see you as.
+This Location
+This is the name that identifies this location
+Other Locations
+You can sign out from other locations here
+You are not signed in from any other locations.
+Allow multiple logins?
+Allow
+Disallow
+Set your home phone number.
+Set your work phone number.
+Set your mobile phone number.
+Allow MSN Mobile pages?
+Blocked Text for %s
+No text is blocked for this account.
+This account does not have email enabled.
+Send a mobile message.
+Page
+Playing a game
+Working
+Has you
+Home Phone Number
+Work Phone Number
+Mobile Phone Number
+Be Right Back
+Busy
+On the Phone
+Out to Lunch
+Game Title
+Office Title
+Set Friendly Name...
+View Locations...
+Set Home Phone Number...
+Set Work Phone Number...
+Set Mobile Phone Number...
+Enable/Disable Mobile Devices...
+Allow/Disallow Multiple Logins...
+Allow/Disallow Mobile Pages...
+View Blocked Text...
+Open Hotmail Inbox
+Send to Mobile
+SSL support is needed for MSN. Please install a supported SSL library.
+Unable to Add
+Error retrieving profile
+General
+Age
+Occupation
+Location
+Hobbies and Interests
+A Little About Me
+Social
+Marital Status
+Interests
+Pets
+Hometown
+Places Lived
+Fashion
+Humor
+Music
+Favorite Quote
+Contact Info
+Personal
+Significant Other
+Home Phone
+Home Phone 2
+Home Address
+Personal Mobile
+Home Fax
+Personal Email
+Personal IM
+Anniversary
+Work
+Company
+Department
+Profession
+Work Phone
+Work Phone 2
+Work Address
+Work Mobile
+Work Pager
+Work Fax
+Work Email
+Work IM
+Start Date
+Favorite Things
+Last Updated
+Homepage
+The user has not created a public profile.
+View web profile
+Windows Live Messenger Protocol Plugin
+Use HTTP Method
+HTTP Method Server
+Show custom smileys
+Allow direct connections
+Allow connecting from multiple locations
+nudge: nudge a user to get their attention
+Windows Live ID authentication:Unable to connect
+Windows Live ID authentication:Invalid response
+The following users are missing from your addressbook
+Unknown error (%d): %s
+Unable to add user
+Unknown error (%d)
+Unable to remove user
+Mobile message was not sent because it was too long.
+Mobile message was not sent because an unknown error occurred.
+Message was not sent because messages are being sent too quickly.
+Message was not sent because an unknown encoding error occurred.
+Message was not sent because an unknown error occurred.
+Writing error
+Reading error
+Our protocol is not supported by the server
+Error parsing HTTP
+You have signed on from another location
+The MSN servers are temporarily unavailable. Please wait and try again.
+The MSN servers are going down temporarily
+Unable to authenticate: %s
+Handshaking
+Transferring
+Starting authentication
+Getting cookie
+Sending cookie
+Retrieving buddy list
+%s requests to view your webcam, but this request is not yet supported.
+%s invited you to view his/her webcam, but this is not yet supported.
+Away From Computer
+On The Phone
+Out To Lunch
+Message may have not been sent because a timeout occurred:
+Message could not be sent, not allowed while invisible:
+Message could not be sent because the user is offline:
+Message could not be sent because a connection error occurred:
+Message could not be sent because we are sending too quickly:
+Message may have not been sent because an unknown error occurred:
+Delete Buddy from Address Book?
+Do you want to delete this buddy from your address book as well?
+The username specified is invalid.
+The PIN you entered is invalid.
+The PIN you entered has an invalid length [4-10].
+The PIN is invalid. It should only consist of digits [0-9].
+The two PINs you entered do not match.
+The Display Name you entered is invalid.
+Profile Update Error
+Profile
+Your profile information is not yet retrieved. Please try again later.
+Your UID
+PIN
+Verify PIN
+Display Name
+Hide my number
+Mobile Number
+Update your Profile
+Here you can update your MXit profile
+View Splash
+There is no splash-screen currently available
+About
+Change Profile...
+View Splash...
+About...
+The file you are trying to send is too large!
+Logging In...
+Connecting...
+The Display Name you entered is too short.
+The PIN you entered has an invalid length [7-10].
+MXit ID
+Register New MXit Account
+Please fill in the following fields:
+Error contacting the MXit WAP site. Please try again later.
+Wrong security code entered. Please try again later.
+Your session has expired. Please try again later.
+Invalid country selected. Please try again.
+The MXit ID you entered is not registered. Please register first.
+The MXit ID you entered is already registered. Please choose another.
+Internal error. Please try again later.
+You did not enter the security code
+Security Code
+Enter Security Code
+Your Country
+Your Language
+MXit Authorization
+MXit account validation
+Retrieving User Information...
+You have been kicked from this MultiMX.
+was kicked
+Room Name:
+You have invited
+Loading menu...
+Status Message
+Rejection Message
+Hidden Number
+No profile available
+This contact does not have a profile.
+Your MXit ID...
+Re-Invite
+WAP Server
+Connect via HTTP
+Enable splash-screen popup
+Last Online
+We have lost the connection to MXit. Please reconnect.
+Message Send Error
+Unable to process your request at this time
+Timeout while waiting for a response from the MXit server.
+Successfully Logged In...
+Message Error
+Cannot perform redirect using the specified protocol
+An internal MXit server error occurred.
+Login error: %s (%i)
+Logout error: %s (%i)
+Contact Error
+Message Sending Error
+Status Error
+Mood Error
+Invitation Error
+Contact Removal Error
+Subscription Error
+Contact Update Error
+File Transfer Error
+Cannot create MultiMx room
+MultiMx Invitation Error
+Profile Error
+Invalid packet received from MXit.
+A connection error occurred to MXit. (read stage 0x01)
+A connection error occurred to MXit. (read stage 0x02)
+A connection error occurred to MXit. (read stage 0x03)
+A connection error occurred to MXit. (read stage 0x04)
+A connection error occurred to MXit. (read stage 0x05)
+A connection error occurred to MXit. (read stage 0x06)
+In Love
+Pending
+Invited
+Rejected
+Deleted
+MXit Advertising
+More Information
+No such user: %s
+User lookup
+Reading challenge
+Unexpected challenge length from server
+Logging in
+MySpaceIM - No Username Set
+You appear to have no MySpace username.
+Would you like to set one now? (Note: THIS CANNOT BE CHANGED!)
+Lost connection with server
+New mail messages
+New blog comments
+New profile comments
+New friend requests!
+New picture comments
+MySpace
+IM Friends
+Add contacts from server
+Protocol error, code %d: %s
+Incorrect username or password
+MySpaceIM Error
+Invalid input condition
+Failed to add buddy
+'addbuddy' command failed.
+persist command failed
+Failed to remove buddy
+'delbuddy' command failed
+blocklist command failed
+Missing Cipher
+The RC4 cipher could not be found
+Add friends from MySpace.com
+Importing friends failed
+Find people...
+Change IM name...
+myim URL handler
+No suitable MySpaceIM account could be found to open this myim URL.
+Enable the proper MySpaceIM account and try again.
+Show display name in status text
+Show headline in status text
+Send emoticons
+Screen resolution (dots per inch)
+Base font size (points)
+User
+Headline
+Song
+Total Friends
+Client Version
+MySpaceIM - Username Available
+This username is available. Would you like to set it?
+ONCE SET, THIS CANNOT BE CHANGED!
+MySpaceIM - Please Set a Username
+This username is unavailable.
+Please try another username:
+No username set
+Please enter a username to check its availability:
+Zap
+%s has zapped you!
+Zapping %s...
+Whack
+%s has whacked you!
+Whacking %s...
+Torch
+%s has torched you!
+Torching %s...
+Smooch
+%s has smooched you!
+Smooching %s...
+Hug
+%s has hugged you!
+Hugging %s...
+Slap
+%s has slapped you!
+Slapping %s...
+Goose
+%s has goosed you!
+Goosing %s...
+High-five
+%s has high-fived you!
+High-fiving %s...
+Punk
+%s has punk'd you!
+Punking %s...
+Raspberry
+%s has raspberried you!
+Raspberrying %s...
+Required parameters not passed in
+Unable to write to network
+Unable to read from network
+Error communicating with server
+Conference not found
+Conference does not exist
+A folder with that name already exists
+Not supported
+Password has expired
+Incorrect password
+Account has been disabled
+The server could not access the directory
+Your system administrator has disabled this operation
+The server is unavailable; try again later
+Cannot add a contact to the same folder twice
+Cannot add yourself
+Master archive is misconfigured
+Could not recognize the host of the username you entered
+You cannot add the same person twice to a conversation
+You have reached your limit for the number of contacts allowed
+You have entered an incorrect username
+An error occurred while updating the directory
+Incompatible protocol version
+The user has blocked you
+The user is either offline or you are blocked
+Unknown error: 0x%X
+Unable to login: %s
+Unable to send message. Could not get details for user (%s).
+Unable to add %s to your buddy list (%s).
+Unable to send message (%s).
+Unable to invite user (%s).
+Unable to send message to %s. Could not create the conference (%s).
+Unable to send message. Could not create the conference (%s).
+Could not get details for user %s (%s).
+Unable to add user to privacy list (%s).
+Unable to add %s to deny list (%s).
+Unable to add %s to permit list (%s).
+Unable to remove %s from privacy list (%s).
+Unable to change server side privacy settings (%s).
+Unable to create conference (%s).
+Error communicating with server. Closing connection.
+Telephone Number
+Personal Title
+Mailstop
+User ID
+Full name
+GroupWise Conference %d
+Authenticating...
+Waiting for response...
+%s has been invited to this conversation.
+Invitation to Conversation
+Would you like to join the conversation?
+This conference has been closed. No more messages can be sent.
+Novell GroupWise Messenger Protocol Plugin
+Server address
+Server port
+Please authorize me so I can add you to my buddy list.
+No reason given.
+Authorization Denied Message:
+OK
+Received unexpected response from %s: %s
+Received unexpected response from %s
+Error requesting %s: %s
+The server returned an empty response
+AOL does not allow your screen name to authenticate here
+Could not join chat room
+Invalid chat room name
+Invalid error
+Cannot receive IM due to parental controls
+Cannot send SMS without accepting terms
+Cannot send SMS
+Cannot send SMS to this country
+Cannot send SMS to unknown country
+Bot accounts cannot initiate IMs
+Bot account cannot IM this user
+Bot account reached IM limit
+Bot account reached daily IM limit
+Bot account reached monthly IM limit
+Unable to receive offline messages
+Offline message store full
+Unable to send message: %s (%s)
+Unable to send message: %s
+Unable to send message to %s: %s (%s)
+Unable to send message to %s: %s
+Thinking
+Shopping
+Questioning
+Eating
+Watching a movie
+Typing
+At the office
+Taking a bath
+Watching TV
+Having fun
+Sleeping
+Using a PDA
+Meeting friends
+On the phone
+Surfing
+Mobile
+Searching the web
+At a party
+Having Coffee
+Gaming
+Browsing the web
+Smoking
+Writing
+Drinking
+Listening to music
+Studying
+In the restroom
+Received invalid data on connection with server
+AIM Protocol Plugin
+ICQ UIN...
+ICQ Protocol Plugin
+Encoding
+The remote user has closed the connection.
+The remote user has declined your request.
+Lost connection with the remote user:<br>%s
+Received invalid data on connection with remote user.
+Unable to establish a connection with the remote user.
+Direct IM established
+File %s is %s, which is larger than the maximum size of %s.
+Free For Chat
+Not Available
+Occupied
+Web Aware
+Invisible
+Evil
+Depression
+At home
+At work
+At lunch
+Unable to connect to authentication server: %s
+Unable to connect to BOS server: %s
+Username sent
+Connection established, cookie sent
+Finalizing connection
+You may be disconnected shortly.  If so, check %s for updates.
+Unable to get a valid AIM login hash.
+Unable to get a valid login hash.
+Received authorization
+Username does not exist
+Your account is currently suspended
+The AOL Instant Messenger service is temporarily unavailable.
+The client version you are using is too old. Please upgrade at %s
+The SecurID key entered is invalid
+Enter SecurID
+Enter the 6 digit number from the digital display.
+Password sent
+Unable to initialize connection
+ICQ authorization denied.
+The user %u has granted your request to add them to your buddy list.
+ICQ user %u has sent you a buddy: %s (%s)
+Do you want to add this buddy to your buddy list?
+Add
+Decline
+You missed %hu message from %s because it was invalid.
+You missed %hu messages from %s because they were invalid.
+You missed %hu message from %s because it was too large.
+You missed %hu messages from %s because they were too large.
+You missed %hu message from %s because your warning level is too high.
+You missed %hu message from %s for an unknown reason.
+You missed %hu messages from %s for an unknown reason.
+Your AIM connection may be lost.
+You have been disconnected from chat room %s.
+The new formatting is invalid.
+Username formatting can change only capitalization and whitespace.
+Pop-Up Message
+The following username is associated with %s
+The following usernames are associated with %s
+No results found for email address %s
+You should receive an email asking to confirm %s.
+Account Confirmation Requested
+Error 0x%04x: Unable to format username because it is invalid.
+Error 0x%04x: Unknown error.
+Error Changing Account Info
+The email address for %s is %s
+Account Info
+Unable to set AIM profile.
+Profile too long.
+Away message too long.
+Unable to Retrieve Buddy List
+Orphans
+(no name)
+Unable to add the buddy %s for an unknown reason.
+Authorization Given
+The user %s has granted your request to add them to your buddy list.
+Authorization Granted
+Authorization Denied
+Exchange:
+Your IM Image was not sent. You cannot send IM Images in AIM chats.
+iTunes Music Store Link
+Lunch
+Buddy Comment for %s
+Buddy Comment:
+You have selected to open a Direct IM connection with %s.
+C_onnect
+You closed the connection.
+Get AIM Info
+Edit Buddy Comment
+Get X-Status Msg
+End Direct IM Session
+Direct IM
+Re-request Authorization
+Require authorization
+Web aware (enabling this will cause you to receive SPAM!)
+ICQ Privacy Options
+Change Address To:
+you are not waiting for authorization
+You are awaiting authorization from the following buddies
+Find Buddy by Email
+Search for a buddy by email address
+Type the email address of the buddy you are searching for.
+Search
+Set User Info (web)...
+Change Password (web)
+Configure IM Forwarding (web)
+Set Privacy Options...
+Show Visible List
+Show Invisible List
+Confirm Account
+Display Currently Registered Email Address
+Change Currently Registered Email Address...
+Show Buddies Awaiting Authorization
+Search for Buddy by Email Address...
+Don't use encryption
+Use clientLogin
+Allow multiple simultaneous logins
+Asking %s to connect to us at %s:%hu for Direct IM.
+Attempting to connect to %s:%hu.
+Attempting to connect via proxy server.
+%s has just asked to directly connect to %s
+Buddy Icon
+Voice
+AIM Direct IM
+Get File
+Games
+ICQ Xtraz
+Add-Ins
+Send Buddy List
+ICQ Direct Connect
+AP User
+ICQ RTF
+Nihilist
+ICQ Server Relay
+Old ICQ UTF8
+Trillian Encryption
+ICQ UTF8
+Hiptop
+Security Enabled
+Video Chat
+iChat AV
+Live Video
+Camera
+Screen Sharing
+IP Address
+Warning Level
+Buddy Comment
+User information not available: %s
+Mobile Phone
+Personal Web Page
+Additional Information
+Zip Code
+Work Information
+Division
+Position
+Web Page
+Online Since
+Member Since
+Capabilities
+Invalid SNAC
+Server rate limit exceeded
+Client rate limit exceeded
+Service unavailable
+Service not defined
+Obsolete SNAC
+Not supported by host
+Not supported by client
+Refused by client
+Reply too big
+Responses lost
+Request denied
+Busted SNAC payload
+Insufficient rights
+In local permit/deny
+Warning level too high (sender)
+Warning level too high (receiver)
+User temporarily unavailable
+No match
+List overflow
+Request ambiguous
+Queue full
+Not while on AOL
+Appear Online
+Don't Appear Online
+Appear Offline
+Don't Appear Offline
+you have no buddies on this list
+Visible List
+These buddies will see your status when you switch to \"Invisible\"
+Invisible List
+These buddies will always see you as offline
+Aquarius
+Pisces
+Aries
+Taurus
+Gemini
+Cancer
+Leo
+Virgo
+Libra
+Scorpio
+Sagittarius
+Capricorn
+Rat
+Ox
+Tiger
+Rabbit
+Dragon
+Snake
+Horse
+Goat
+Monkey
+Rooster
+Dog
+Pig
+Other
+Visible
+Friend Only
+Private
+QQ Number
+Country/Region
+Province/State
+Zipcode
+Phone Number
+Authorize adding
+Cellphone Number
+Personal Introduction
+City/Area
+Publish Mobile
+Publish Contact
+College
+Horoscope
+Zodiac
+Blood
+True
+False
+Modify Contact
+Modify Address
+Modify Extended Information
+Modify Information
+Update
+Could not change buddy information.
+Note
+Buddy Memo
+Change his/her memo as you like
+Modify
+Memo Modify
+Server says:
+Your request was accepted.
+Your request was rejected.
+%u requires verification: %s
+Add buddy question
+Enter answer here
+Send
+Invalid answer.
+Authorization denied message:
+Sorry, you're not my style.
+%u needs authorization
+Add buddy authorize
+Enter request here
+Would you be my friend?
+QQ Buddy
+Add buddy
+Invalid QQ Number
+Failed sending authorize
+Failed removing buddy %u
+Failed removing me from %d's buddy list
+No reason given
+You have been added by %s
+Would you like to add him?
+Rejected by %s
+Message: %s
+ID: 
+Group ID
+QQ Qun
+Please enter Qun number
+You can only search for permanent Qun\n
+(Invalid UTF-8 string)
+Not member
+Member
+Requesting
+Admin
+Room Title
+Notice
+Detail
+Creator
+About me
+Category
+The Qun does not allow others to join
+Join QQ Qun
+Input request here
+Successfully joined Qun %s (%u)
+Successfully joined Qun
+Qun %u denied from joining
+QQ Qun Operation
+Failed:
+Join Qun, Unknown Reply
+Quit Qun
+Sorry, you are not our style
+Successfully changed Qun members
+Successfully changed Qun information
+You have successfully created a Qun
+Would you like to set up detailed information now?
+Setup
+%u requested to join Qun %u for %s
+%u request to join Qun %u
+Failed to join Qun %u, operated by admin %u
+<b>Joining Qun %u is approved by admin %u for %s</b>
+<b>Removed buddy %u.</b>
+<b>New buddy %u joined.</b>
+Unknown-%d
+Level
+ VIP
+ TCP
+ FromMobile
+ BindMobile
+ Video
+ Zone
+Flag
+Ver
+Invalid name
+Select icon...
+<b>Login time</b>: %d-%d-%d, %d:%d:%d<br>\n
+<b>Total Online Buddies</b>: %d<br>\n
+<b>Last Refresh</b>: %d-%d-%d, %d:%d:%d<br>\n
+<b>Server</b>: %s<br>\n
+<b>Client Tag</b>: %s<br>\n
+<b>Connection Mode</b>: %s<br>\n
+<b>My Internet IP</b>: %s:%d<br>\n
+<b>Sent</b>: %lu<br>\n
+<b>Resend</b>: %lu<br>\n
+<b>Lost</b>: %lu<br>\n
+<b>Received</b>: %lu<br>\n
+<b>Received Duplicate</b>: %lu<br>\n
+<b>Time</b>: %d-%d-%d, %d:%d:%d<br>\n
+<b>IP</b>: %s<br>\n
+Login Information
+<p><b>Original Author</b>:<br>\n
+<p><b>Code Contributors</b>:<br>\n
+<p><b>Lovely Patch Writers</b>:<br>\n
+<p><b>Acknowledgement</b>:<br>\n
+<p><b>Scrupulous Testers</b>:<br>\n
+and more, please let me know... thank you!))
+<p><i>And, all the boys in the backroom...</i><br>\n
+<i>Feel free to join us!</i> :)
+About OpenQ %s
+Change Icon
+Change Password
+Account Information
+Update all QQ Quns
+About OpenQ
+Modify Buddy Memo
+QQ Protocol Plugin
+Auto
+Select Server
+QQ2008
+QQ2007
+QQ2005
+Connect by TCP
+Show server notice
+Show server news
+Show chat room when msg comes
+Use default font
+Keep alive interval (seconds)
+Update interval (seconds)
+Unable to decrypt server reply
+Failed requesting token, 0x%02X
+Invalid token len, %d
+Redirect_EX is not currently supported
+Activation required
+Unknown reply code when logging in (0x%02X)
+Requesting captcha
+Checking captcha
+Failed captcha verification
+Captcha Image
+Enter code
+QQ Captcha Verification
+Enter the text from the image
+Unknown reply when checking password (0x%02X)
+Socket error
+Getting server
+Requesting token
+Unable to resolve hostname
+Invalid server or port
+Connecting to server
+QQ Error
+%s:%s
+From %s:
+Unknown SERVER CMD
+QQ Qun Command
+Unable to decrypt login reply
+Unknown LOGIN CMD
+Unknown CLIENT CMD
+%d has declined the file %s
+File Send
+%d cancelled the transfer of %s
+<b>Group Title:</b> %s<br>
+<b>Notes Group ID:</b> %s<br>
+Info for Group %s
+Notes Address Book Information
+Invite Group to Conference...
+Get Notes Address Book Info
+Sending Handshake
+Waiting for Handshake Acknowledgement
+Handshake Acknowledged, Sending Login
+Waiting for Login Acknowledgement
+Login Redirected
+Forcing Login
+Login Acknowledged
+Starting Services
+Sametime Administrator Announcement
+Announcement from %s
+Conference Closed
+Unable to send message: 
+Unable to send message to %s:
+Place Closed
+Microphone
+Speakers
+Video Camera
+File Transfer
+Supports
+External User
+Create conference with user
+New Conference
+Create
+Available Conferences
+Create New Conference...
+Invite user to a conference
+Invite to Conference
+Invite to Conference...
+Send TEST Announcement
+Topic:
+No Sametime Community Server specified
+Meanwhile Connection Setup
+No Sametime Community Server Specified
+Connect
+Unknown (0x%04x)<br>
+Last Known Client
+User Name
+Sametime ID
+An ambiguous user ID was entered
+Select User
+Unable to add user: user not found
+Remotely Stored Buddy List
+Buddy List Storage Mode
+Local Buddy List Only
+Merge List from Server
+Merge and Save List to Server
+Synchronize List with Server
+Import Sametime List for Account %s
+Export Sametime List for Account %s
+Unable to add group: group exists
+A group named '%s' already exists in your buddy list.
+Unable to add group
+Possible Matches
+Notes Address Book group results
+Select Notes Address Book
+Unable to add group: group not found
+Notes Address Book Group
+Search results for '%s'
+Search Results
+No matches
+The identifier '%s' did not match any users in your Sametime community.
+No Matches
+Search for a user
+User Search
+Import Sametime List...
+Export Sametime List...
+Add Notes Address Book Group...
+User Search...
+Force login (ignore server redirects)
+Hide client identity
+User %s is not present in the network
+Key Agreement
+Cannot perform the key agreement
+Error occurred during key agreement
+Key Agreement failed
+Timeout during key agreement
+Key agreement was aborted
+Key agreement is already started
+Key agreement cannot be started with yourself
+The remote user is not present in the network any more
+Key Agreement Request
+IM With Password
+Cannot set IM key
+Set IM Password
+Get Public Key
+Cannot fetch the public key
+Show Public Key
+Could not load public key
+User Information
+Cannot get user information
+The %s buddy is not trusted
+Open...
+The %s buddy is not present in the network
+Import...
+Select correct user
+Detached
+Indisposed
+Wake Me Up
+Hyper Active
+Robot
+User Modes
+Preferred Contact
+Preferred Language
+Device
+Timezone
+Geolocation
+Reset IM Key
+IM with Key Exchange
+IM with Password
+Get Public Key...
+Kill User
+Draw On Whiteboard
+Passphrase:
+Channel %s does not exist in the network
+Channel Information
+Cannot get channel information
+<b>Channel Name:</b> %s
+<br><b>User Count:</b> %d
+<br><b>Channel Founder:</b> %s
+<br><b>Channel Cipher:</b> %s
+<br><b>Channel HMAC:</b> %s
+<br><b>Channel Topic:</b><br>%s
+<br><b>Channel Modes:</b> 
+<br><b>Founder Key Fingerprint:</b><br>%s
+<br><b>Founder Key Babbleprint:</b><br>%s
+Add Channel Public Key
+Open Public Key...
+Channel Passphrase
+Channel Public Keys List
+Channel Authentication
+Add / Remove
+Group Name
+Passphrase
+Please enter the %s channel private group name and passphrase.
+Add Channel Private Group
+User Limit
+Set user limit on channel. Set to zero to reset user limit.
+Invite List
+Ban List
+Add Private Group
+Reset Permanent
+Set Permanent
+Set User Limit
+Reset Topic Restriction
+Set Topic Restriction
+Reset Private Channel
+Set Private Channel
+Reset Secret Channel
+Set Secret Channel
+Join Private Group
+Cannot join private group
+Call Command
+Cannot call command
+Unknown command
+Secure File Transfer
+Error during file transfer
+Remote disconnected
+Permission denied
+Key agreement failed
+Connection timed out
+Creating connection failed
+File transfer session does not exist
+No file transfer session active
+File transfer already started
+Could not perform key agreement for file transfer
+Could not start the file transfer
+Cannot send file
+Error occurred
+%s has changed the topic of <I>%s</I> to: %s
+<I>%s</I> set channel <I>%s</I> modes to: %s
+<I>%s</I> removed all channel <I>%s</I> modes
+<I>%s</I> set <I>%s's</I> modes to: %s
+<I>%s</I> removed all <I>%s's</I> modes
+You have been kicked off <I>%s</I> by <I>%s</I> (%s)
+You have been killed by %s (%s)
+Killed by %s (%s)
+Server signoff
+Personal Information
+Birth Day
+Job Role
+Organization
+Unit
+Join Chat
+You are channel founder on <I>%s</I>
+Channel founder on <I>%s</I> is <I>%s</I>
+Real Name
+Status Text
+Public Key Fingerprint
+Public Key Babbleprint
+More...
+Detach From Server
+Cannot detach
+Cannot set topic
+Failed to change nickname
+Roomlist
+Cannot get room list
+Network is empty
+No public key was received
+Server Information
+Cannot get server information
+Server Statistics
+Cannot get server statistics
+Network Statistics
+Ping
+Ping failed
+Ping reply received from server
+Could not kill user
+WATCH
+Cannot watch user
+Resuming session
+Authenticating connection
+Verifying server public key
+Passphrase required
+Received %s's public key. Would you like to accept this public key?
+Verify Public Key
+View...
+Unsupported public key type
+Disconnected by server
+Error connecting to SILC Server
+Key Exchange failed
+Performing key exchange
+Unable to load SILC key pair
+Connecting to SILC Server
+Out of memory
+Unable to initialize SILC protocol
+Error loading SILC key pair
+Download %s: %s
+Your Current Mood
+Normal
+SMS
+MMS
+Video conferencing
+Your Current Status
+Online Services
+Let others see what services you are using
+Let others see what computer you are using
+Your VCard File
+Timezone (UTC)
+User Online Status Attributes
+Message of the Day
+No Message of the Day available
+There is no Message of the Day associated with this connection
+Create New SILC Key Pair
+Passphrases do not match
+Key Pair Generation failed
+Key length
+Public key file
+Private key file
+Passphrase (retype)
+Generate Key Pair
+Online Status
+View Message of the Day
+Create SILC Key Pair...
+User <I>%s</I> is not present in the network
+Topic too long
+You must specify a nick
+channel %s not found
+channel modes for %s: %s
+no channel modes are set on %s
+Failed to set cmodes for %s
+Unknown command: %s, (may be a client bug)
+part [channel]:  Leave the chat
+leave [channel]:  Leave the chat
+topic [&lt;new topic&gt;]:  View or change the topic
+join &lt;channel&gt; [&lt;password&gt;]:  Join a chat on this network
+list:  List channels on this network
+whois &lt;nick&gt;:  View nick's information
+msg &lt;nick&gt; &lt;message&gt;:  Send a private message to a user
+query &lt;nick&gt; [&lt;message&gt;]:  Send a private message to a user
+motd:  View the server's Message Of The Day
+detach:  Detach this session
+quit [message]:  Disconnect from the server, with an optional message
+call &lt;command&gt;:  Call any silc client command
+kill &lt;nick&gt; [-pubkey|&lt;reason&gt;]:  Kill nick
+nick &lt;newnick&gt;:  Change your nickname
+whowas &lt;nick&gt;:  View nick's information
+umode &lt;usermodes&gt;:  Set your modes in the network
+oper &lt;nick&gt; [-pubkey]:  Get server operator privileges
+kick &lt;channel&gt; &lt;nick&gt; [comment]:  Kick client from channel
+info [server]:  View server administrative details
+ban [&lt;channel&gt; +|-&lt;nick&gt;]:  Ban client from channel
+getkey &lt;nick|server&gt;:  Retrieve client's or server's public key
+stats:  View server and network statistics
+ping:  Send PING to the connected server
+users &lt;channel&gt;:  List users in channel
+SILC Protocol Plugin
+Secure Internet Live Conferencing (SILC) Protocol
+Network
+Public Key file
+Private Key file
+Cipher
+HMAC
+Use Perfect Forward Secrecy
+Public key authentication
+Block IMs without Key Exchange
+Block messages to whiteboard
+Automatically open whiteboard
+Digitally sign and verify all messages
+Creating SILC key pair...
+Unable to create SILC key pair
+Real Name: \t%s\n
+User Name: \t%s\n
+Email: \t\t%s\n
+Host Name: \t%s\n
+Organization: \t%s\n
+Country: \t%s\n
+Algorithm: \t%s\n
+Key Length: \t%d bits\n
+Version: \t%s\n
+Public Key Information
+Paging
+Video Conferencing
+Computer
+PDA
+Terminal
+%s sent message to whiteboard. Would you like to open the whiteboard?
+Whiteboard
+No server statistics available
+Error during connecting to SILC Server
+Failure: Version mismatch, upgrade your client
+Failure: Remote does not trust/support your public key
+Failure: Remote does not support proposed KE group
+Failure: Remote does not support proposed cipher
+Failure: Remote does not support proposed PKCS
+Failure: Remote does not support proposed hash function
+Failure: Remote does not support proposed HMAC
+Failure: Incorrect signature
+Failure: Invalid cookie
+Failure: Authentication failed
+Unable to initialize SILC Client connection
+John Noname
+Unable to load SILC key pair: %s
+Unable to create connection
+Unknown server response
+Unable to create listen socket
+SIP usernames may not contain whitespaces or @ symbols
+SIP connect server not specified
+SIP/SIMPLE Protocol Plugin
+The SIP/SIMPLE Protocol Plugin
+Publish status (note: everyone may watch you)
+Use UDP
+Use proxy
+Proxy
+Auth User
+Auth Domain
+join &lt;room&gt;:  Join a chat room on the Yahoo network
+list: List rooms on the Yahoo network
+doodle: Request user to start a Doodle session
+Yahoo ID...
+Yahoo! Protocol Plugin
+Pager port
+File transfer server
+File transfer port
+Chat room locale
+Ignore conference and chatroom invitations
+Use account proxy for HTTP and HTTPS connections
+Chat room list URL
+Yahoo JAPAN ID...
+Yahoo! JAPAN Protocol Plugin
+%s has sent you a webcam invite, which is not yet supported.
+Your SMS was not delivered
+Your Yahoo! message did not get sent.
+Yahoo! system message for %s:
+%s has (retroactively) denied your request to add them to your list.
+Add buddy rejected
+Received invalid data
+Username or password missing
+Failed Yahoo! Authentication
+Ignore buddy?
+Invalid username or password
+Unknown error 52.  Reconnecting should fix this.
+Unknown error number %d. Logging into the Yahoo! website may fix this.
+Unable to add buddy %s to group %s to the server list on account %s.
+Unable to add buddy to server list
+[ Audible %s/%s/%s.swf ] %s
+Received unexpected HTTP response from server
+Lost connection with %s: %s
+Unable to establish a connection with %s: %s
+Unable to connect: The server returned an empty response.
+Not at Home
+Not at Desk
+Not in Office
+On Vacation
+Stepped Out
+Not on server list
+Appear Permanently Offline
+Presence
+Don't Appear Permanently Offline
+Join in Chat
+Initiate Conference
+Presence Settings
+Start Doodling
+Select the ID you want to activate
+Join whom in chat?
+Activate ID...
+Join User in Chat...
+Open Inbox
+Can't send SMS. Unable to obtain mobile carrier.
+Can't send SMS. Unknown mobile carrier.
+Getting mobile carrier to send the SMS.
+Sent Doodle request.
+Unable to connect.
+Unable to establish file descriptor.
+%s is trying to send you a group of %d files.\n
+Write Error
+Yahoo! Japan Profile
+Yahoo! Profile
+Yahoo! ID
+Hobbies
+Latest News
+Home Page
+Cool Link 1
+Cool Link 2
+Cool Link 3
+Last Update
+The user's profile is empty.
+%s has declined to join.
+Failed to join chat
+Unknown room
+Maybe the room is full
+Not available
+You are now chatting in %s.
+Failed to join buddy in chat
+Maybe they're not in a chat?
+Fetching the room list failed.
+Voices
+Webcams
+Connection problem
+Unable to fetch room list.
+User Rooms
+Connection problem with the YCHT server
+Unable to send to chat %s,%s,%s
+Hidden or not logged-in
+<br>At %s since %s
+Anyone
+Class:
+Instance:
+Recipient:
+Attempt to subscribe to %s,%s,%s failed
+zlocate &lt;nick&gt;: Locate user
+zl &lt;nick&gt;: Locate user
+instance &lt;instance&gt;: Set the instance to be used on this class
+inst &lt;instance&gt;: Set the instance to be used on this class
+topic &lt;instance&gt;: Set the instance to be used on this class
+sub &lt;class&gt; &lt;instance&gt; &lt;recipient&gt;: Join a new chat
+zc &lt;class&gt;: Send a message to &lt;<i>class</i>,PERSONAL,*&gt;
+Resubscribe
+Retrieve subscriptions from server
+Zephyr Protocol Plugin
+Use tzc
+tzc command
+Export to .anyone
+Export to .zephyr.subs
+Import from .anyone
+Import from .zephyr.subs
+Realm
+Exposure
+Unable to create socket: %s
+Unable to parse response from HTTP proxy: %s
+HTTP proxy connection error %d
+Access denied: HTTP proxy server forbids port %d tunneling
+Error resolving %s
+Requesting %s's attention...
+%s has requested your attention!
+Yes
+No
+Accept
+I'm not here right now
+saved statuses
+%s is now known as %s.\n
+%s has invited %s to the chat room %s\n
+Accept chat invitation?
+Shortcut
+The text-shortcut for the smiley
+Stored Image
+Stored Image. (that'll have to do for now)
+SSL Connection Failed
+SSL Handshake Failed
+SSL peer presented an invalid certificate
+Unknown SSL error
+Unset
+Do not disturb
+Extended away
+Feeling
+%s (%s) changed status from %s to %s
+%s (%s) is now %s
+%s (%s) is no longer %s
+%s became idle
+%s became unidle
++++ %s became idle
++++ %s became unidle
+%x %X
+Calculating...
+Unknown.
+%d second
+%d seconds
+%d day
+%d days
+%s, %d hour
+%s, %d hours
+%d hour
+%d hours
+%s, %d minute
+%s, %d minutes
+%d minute
+%d minutes
+Could not open %s: Redirected too many times
+Unable to connect to %s
+Error reading from %s: response too long (%d bytes limit)
+Error reading from %s: %s
+Error writing to %s: %s
+Unable to connect to %s: %s
+ - %s
+ (%s)
+Connection interrupted by other software on your computer.
+Remote host closed connection.
+Connection timed out.
+Connection refused.
+Address already in use.
+Error Reading %s
+Internet Messenger
+Pidgin Internet Messenger
+Login Options
+Protocol:
+Username:
+Remember password
+User Options
+Local alias:
+New mail notifications
+Use this buddy icon for this account:
+Advanced
+Use GNOME Proxy Settings
+Use Global Proxy Settings
+No Proxy
+HTTP
+SOCKS 4
+SOCKS 5
+Use Environmental Settings
+If you look real closely
+you can see the butterflies mating
+Proxy type:
+Host:
+Port:
+Password:
+Use silence suppression
+Voice and Video
+Unable to save new account
+An account already exists with the specified criteria.
+Add Account
+Basic
+Create this new account on the server
+Proxy
+Enabled
+Protocol
+%s%s%s%s wants to add you (%s) to his or her buddy list%s%s
+Send Instant Message
+Background Color
+The background color for the buddy list
+Layout
+The layout of icons, name, and status of the buddy list
+Expanded Background Color
+The background color of an expanded group
+Expanded Text
+The text information for when a group is expanded
+Collapsed Background Color
+The background color of a collapsed group
+Collapsed Text
+The text information for when a group is collapsed
+Contact/Chat Background Color
+The background color of a contact or chat
+Contact Text
+The text information for when a contact is expanded
+Online Text
+The text information for when a buddy is online
+Away Text
+The text information for when a buddy is away
+Offline Text
+The text information for when a buddy is offline
+Idle Text
+The text information for when a buddy is idle
+Message Text
+The text information for when a buddy has an unread message
+Message (Nick Said) Text
+The text information for a buddy's status
+You have %d contact named %s. Would you like to merge them?
+Please update the necessary fields.
+Account
+Room List
+Block
+Unblock
+Move to
+Get Info
+IM
+Audio Call
+Audio/Video Call
+Video Call
+Send File...
+Add Buddy Pounce...
+View Log
+Hide When Offline
+Show When Offline
+Alias...
+Remove
+Set Custom Icon
+Remove Custom Icon
+Add Buddy...
+Add Chat...
+Delete Group
+Rename
+Join
+Auto-Join
+Persistent
+Edit Settings...
+Collapse
+Expand
+/Tools/Mute Sounds
+Unknown node type
+Please select your mood from the list
+Message (optional)
+Edit User Mood
+/Buddies
+/Buddies/New Instant Message...
+/Buddies/Join a Chat...
+/Buddies/Get User Info...
+/Buddies/View User Log...
+/Buddies/Show
+/Buddies/Show/Offline Buddies
+/Buddies/Show/Empty Groups
+/Buddies/Show/Buddy Details
+/Buddies/Show/Idle Times
+/Buddies/Show/Protocol Icons
+/Buddies/Sort Buddies
+/Buddies/Add Buddy...
+/Buddies/Add Chat...
+/Buddies/Add Group...
+/Buddies/Quit
+/Accounts
+/Accounts/Manage Accounts
+/Tools
+/Tools/Buddy Pounces
+/Tools/Certificates
+/Tools/Custom Smileys
+/Tools/Plugins
+/Tools/Preferences
+/Tools/Privacy
+/Tools/Set Mood
+/Tools/File Transfers
+/Tools/Room List
+/Tools/System Log
+/Tools/Mute Sounds
+/Help
+/Help/Online Help
+/Help/Build Information
+/Help/Debug Window
+/Help/Developer Information
+/Help/Translator Information
+/Help/About
+<b>Account:</b> %s
+(no topic set)
+Buddy Alias
+Logged In
+Last Seen
+Spooky
+Awesome
+Rockin'
+Total Buddies
+Idle %dd %dh %02dm
+Idle %dh %02dm
+Idle %dm
+/Buddies/New Instant Message...
+/Buddies/Join a Chat...
+/Buddies/Get User Info...
+/Buddies/Add Buddy...
+/Buddies/Add Chat...
+/Buddies/Add Group...
+/Tools/Privacy
+/Tools/Room List
+%d unread message from %s\n
+%d unread messages from %s\n
+Manually
+By status
+By recent log activity
+%s disconnected
+%s disabled
+Reconnect
+Re-enable
+SSL FAQs
+Welcome back!
+%d account was disabled because you signed on from another location:
+<b>Username:</b>
+<b>Password:</b>
+Login
+/Accounts
+/Buddies/Show/Offline Buddies
+/Buddies/Show/Empty Groups
+/Buddies/Show/Buddy Details
+/Buddies/Show/Idle Times
+/Buddies/Show/Protocol Icons
+Add a buddy.\n
+Buddy's username:
+(Optional) Alias:
+(Optional) Invite message:
+Add buddy to group:
+This protocol does not support chat rooms.
+Alias:
+Group:
+Autojoin when account connects.
+Remain in chat after window is closed.
+Please enter the name of the group to be added.
+Enable Account
+<PurpleMain>/Accounts/Enable Account
+<PurpleMain>/Accounts/
+Edit Account
+Set Mood...
+No actions available
+Disable
+/Tools
+/Buddies/Sort Buddies
+Type the host name for this certificate.
+SSL Servers
+Unknown command.
+That buddy is not on the same protocol as this chat.
+Invite Buddy Into Chat Room
+Buddy:
+Message:
+<h1>Conversation with %s</h1>\n
+Save Conversation
+Un-Ignore
+Ignore
+Get Away Message
+Last Said
+Unable to save icon file to disk.
+Save Icon
+Animate
+Hide Icon
+Save Icon As...
+Set Custom Icon...
+Change Size
+Show All
+/Conversation
+/Conversation/New Instant Message...
+/Conversation/Join a Chat...
+/Conversation/Find...
+/Conversation/View Log
+/Conversation/Save As...
+/Conversation/Clear Scrollback
+/Conversation/Media
+/Conversation/Media/Audio Call
+/Conversation/Media/Video Call
+/Conversation/Media/Audio\\/Video Call
+/Conversation/Send File...
+/Conversation/Get Attention
+/Conversation/Add Buddy Pounce...
+/Conversation/Get Info
+/Conversation/Invite...
+/Conversation/More
+/Conversation/Alias...
+/Conversation/Block...
+/Conversation/Unblock...
+/Conversation/Add...
+/Conversation/Remove...
+/Conversation/Insert Link...
+/Conversation/Insert Image...
+/Conversation/Close
+/Options
+/Options/Enable Logging
+/Options/Enable Sounds
+/Options/Show Formatting Toolbars
+/Options/Show Timestamps
+/Conversation/More
+/Options
+/Conversation
+/Conversation/View Log
+/Conversation/Media/Audio Call
+/Conversation/Media/Video Call
+/Conversation/Media/Audio\\/Video Call
+/Conversation/Send File...
+/Conversation/Get Attention
+/Conversation/Add Buddy Pounce...
+/Conversation/Get Info
+/Conversation/Invite...
+/Conversation/Alias...
+/Conversation/Block...
+/Conversation/Unblock...
+/Conversation/Add...
+/Conversation/Remove...
+/Conversation/Insert Link...
+/Conversation/Insert Image...
+/Options/Enable Logging
+/Options/Enable Sounds
+/Options/Show Formatting Toolbars
+/Options/Show Timestamps
+User is typing...
+Send To
+Send
+0 people in room
+Close Find bar
+Find:
+%d person in room
+%d people in room
+Stopped Typing
+Nick Said
+Unread Messages
+New Event
+clear: Clears all conversation scrollbacks.
+Confirm close
+You have unread messages. Are you sure you want to close the window?
+Close other tabs
+Close all tabs
+Detach this tab
+Close this tab
+Close conversation
+Last created window
+Separate IM and Chat windows
+New window
+By group
+By account
+Find
+Search for:
+Save Debug Log
+Invert
+Highlight matches
+Icon Only
+Text Only
+Both Icon & Text
+Filter
+Right click for more options.
+Level 
+Select the debug filter level.
+All
+Misc
+Warning
+Error 
+Fatal Error
+artist
+Ka-Hing Cheung
+voice and video
+support
+webmaster
+win32 port
+maintainer
+libfaim maintainer
+hacker and designated driver [lazy bum]
+support/QA
+XMPP
+original author
+lead developer
+Senior Contributor/QA
+Afrikaans
+Arabic
+Assamese
+Belarusian Latin
+Bulgarian
+Bengali
+Bengali-India
+Bosnian
+Catalan
+Valencian-Catalan
+Czech
+Danish
+German
+Dzongkha
+Greek
+Australian English
+British English
+Canadian English
+Esperanto
+Spanish
+Estonian
+Basque
+Persian
+Finnish
+French
+Irish
+Galician
+Gujarati
+Gujarati Language Team
+Hebrew
+Hindi
+Hungarian
+Armenian
+Indonesian
+Italian
+Japanese
+Georgian
+Ubuntu Georgian Translators
+Khmer
+Kannada
+Kannada Translation team
+Korean
+Kurdish
+Lao
+Maithili
+Meadow Mari
+Macedonian
+Malayalam
+Mongolian
+Marathi
+Malay
+Bokmål Norwegian
+Nepali
+Dutch, Flemish
+Norwegian Nynorsk
+Occitan
+Oriya
+Punjabi
+Polish
+Portuguese
+Portuguese-Brazil
+Pashto
+Romanian
+Russian
+Slovak
+Slovenian
+Albanian
+Serbian
+Sinhala
+Swedish
+Swahili
+Tamil
+Telugu
+Thai
+Turkish
+Ukranian
+Urdu
+Vietnamese
+T.M.Thanh and the Gnome-Vi Team
+Simplified Chinese
+Hong Kong Chinese
+Traditional Chinese
+Amharic
+Lithuanian
+About %s
+Build Information
+%s Build Information
+Current Developers
+Crazy Patch Writers
+Retired Developers
+Retired Crazy Patch Writers
+%s Developer Information
+Current Translators
+Past Translators
+%s Translator Information
+Name
+Account
+Get User Info
+View User Log
+Alias Contact
+Enter an alias for this contact.
+Enter an alias for %s.
+Alias Buddy
+Alias Chat
+Enter an alias for this chat.
+Remove Contact
+Remove Contact
+Merge Groups
+Merge Groups
+Remove Group
+Remove Group
+Remove Buddy
+Remove Buddy
+Remove Chat
+Remove Chat
+Right-click for more unread messages...\n
+Change Status
+Show Buddy List
+Unread Messages
+New Message...
+Accounts
+Plugins
+Preferences
+Mute Sounds
+Blink on New Message
+Quit
+Not started
+<b>Receiving As:</b>
+<b>Receiving From:</b>
+<b>Sending To:</b>
+<b>Sending As:</b>
+There is no application configured to open this type of file.
+An error occurred while opening the file.
+Error launching %s: %s
+Error running %s
+Process returned error code %d
+Filename:
+Local File:
+Speed:
+Time Elapsed:
+Time Remaining:
+Close this window when all transfers finish
+Clear finished transfers
+File transfer details
+Paste as Plain Text
+Reset formatting
+Disable smileys in selected text
+Hyperlink color
+Color to draw hyperlinks.
+Hyperlink visited color
+Color to draw hyperlink after it has been visited (or activated).
+Hyperlink prelight color
+Color to draw hyperlinks when mouse is over them.
+Sent Message Name Color
+Color to draw the name of a message you sent.
+Received Message Name Color
+Color to draw the name of a message you received.
+\"Attention\" Name Color
+Color to draw the name of a message you received containing your name.
+Action Message Name Color
+Color to draw the name of an action message.
+Action Message Name Color for Whispered Message
+Color to draw the name of a whispered action message.
+Whisper Message Name Color
+Color to draw the name of a whispered message.
+Typing notification color
+The color to use for the typing notification
+Typing notification font
+The font to use for the typing notification
+Enable typing notification
+Save Image
+Save Image...
+Add Custom Smiley...
+Select Font
+Select Text Color
+Select Background Color
+URL
+Description
+Please enter the URL of the link that you want to insert.
+Insert Link
+Insert
+Failed to store image: %s\n
+Insert Image
+Smile!
+Manage custom smileys
+This theme has no available smileys.
+Font
+Group Items
+Ungroup Items
+Bold
+Italic
+Underline
+Strikethrough
+Increase Font Size
+Decrease Font Size
+Font Face
+Foreground Color
+Reset Formatting
+Insert IM Image
+Insert Smiley
+Send Attention
+<b>Bold</b>
+<i>Italic</i>
+<u>Underline</u>
+<span strikethrough='true'>Strikethrough</span>
+<span size='larger'>Larger</span>
+Normal
+<span size='smaller'>Smaller</span>
+Font face
+Foreground color
+Background color
+Image
+Link
+Horizontal rule
+Smile!
+Attention!
+Log Deletion Failed
+Check permissions and try again.
+Delete Log?
+Delete Log...
+<span size='larger' weight='bold'>Conversation in %s on %s</span>
+<span size='larger' weight='bold'>Conversation with %s on %s</span>
+Browse logs folder
+%s %s. Try `%s -h' for more information.\n
+DIR
+use DIR for config files
+print debugging messages to stdout
+force online, regardless of network status
+display this help and exit
+allow multiple instances
+don't automatically login
+NAME
+X display to use
+display the current version and exit
+Exiting because another libpurple client is already running.\n
+Media
+Hangup
+%s wishes to start an audio/video session with you.
+%s wishes to start a video session with you.
+Incoming Call
+Pause
+%s has %d new message.
+%s has %d new messages.
+<b>%d new email.</b>
+<b>%d new emails.</b>
+The browser command \"%s\" is invalid.
+Unable to open URL
+Error launching \"%s\": %s
+No message
+Open All Messages
+<span weight=\"bold\" size=\"larger\">You have mail!</span>
+New Pounces
+Dismiss
+<span weight=\"bold\" size=\"larger\">You have pounced!</span>
+The following plugins will be unloaded.
+Multiple plugins will be unloaded.
+Unload Plugins
+Could not unload plugin
+Author
+<b>Written by:</b>
+<b>Web site:</b>
+<b>Filename:</b>
+Configure Plugin
+<b>Plugin Details</b>
+Select a file
+Modify Buddy Pounce
+Pounce on Whom
+Account:
+Buddy name:
+Signs on
+Signs off
+Goes away
+Returns from away
+Becomes idle
+Is no longer idle
+Starts typing
+Pauses while typing
+Stops typing
+Sends a message
+Open an IM window
+Pop up a notification
+Send a message
+Execute a command
+Play a sound
+Browse...
+Browse...
+Preview
+Pounce only when my status is not Available
+Recurring
+Pounce Target
+Started typing
+Paused while typing
+Signed on
+Returned from being idle
+Returned from being away
+Stopped typing
+Signed off
+Became idle
+Went away
+Sent a message
+Unknown.... Please report this!
+(Custom)
+Penguin Pimps
+The default Pidgin sound theme
+The default Pidgin buddy list theme
+The default Pidgin status icon theme
+Theme failed to unpack.
+Theme failed to load.
+Theme failed to copy.
+Theme Selections
+Buddy List Theme:
+Status Icon Theme:
+Sound Theme:
+Smiley Theme:
+Keyboard Shortcuts
+Close conversations with the Escape key
+System Tray Icon
+Show system tray icon:
+On unread messages
+Conversation Window
+Hide new IM conversations:
+When away
+Minimize new conversation windows
+Tabs
+Show IMs and chats in tabbed windows
+Show close button on tabs
+Placement:
+Top
+Bottom
+Left
+Right
+Left Vertical
+Right Vertical
+New conversations:
+Show formatting on incoming messages
+Close IMs immediately when the tab is closed
+Show detailed information
+Enable buddy icon animation
+Notify buddies that you are typing to them
+Highlight misspelled words
+Use smooth-scrolling
+Flash window when IMs are received
+Minimum input area height in lines:
+Font
+Use font from theme
+Conversation font:
+Default Formatting
+Cannot start proxy configuration program.
+Cannot start browser configuration program.
+Disabled
+Use automatically detected IP address: %s
+STUN server:
+<span style=\"italic\">Example: stunserver.org</span>
+Public IP:
+Ports
+Enable automatic router port forwarding
+Manually specify range of ports to listen on:
+Start:
+End:
+Relay Server (TURN)
+TURN server:
+UDP Port:
+Username:
+Password:
+Seamonkey
+Opera
+Netscape
+Mozilla
+Konqueror
+Google Chrome
+Desktop Default
+GNOME Default
+Galeon
+Firefox
+Firebird
+Epiphany
+Chromium (chromium-browser)
+Chromium (chrome)
+Manual
+Browser Selection
+Browser preferences are configured in GNOME preferences
+<b>Browser configuration program was not found.</b>
+Configure Browser
+Browser:
+Open link in:
+Browser default
+Existing window
+New tab
+Proxy Server
+Proxy preferences are configured in GNOME preferences
+<b>Proxy configuration program was not found.</b>
+Configure Proxy
+Use remote DNS with SOCKS4 proxies
+Proxy type:
+No proxy
+Port:
+Username:
+Log format:
+Log all instant messages
+Log all chats
+Log all status changes to system log
+Sound Selection
+Quietest
+Quieter
+Quiet
+Loud
+Louder
+Loudest
+Method:
+Console beep
+No sounds
+Mute sounds
+Sounds when conversation has focus
+Enable sounds:
+Volume:
+Play
+Browse...
+Reset
+Report idle time:
+Based on keyboard or mouse use
+Minutes before becoming idle:
+Change to this status when idle:
+Auto-reply:
+When both away and idle
+Status at Startup
+Use status from last exit at startup
+Status to apply at startup:
+Interface
+Browser
+Status / Idle
+Themes
+Allow all users to contact me
+Allow only the users on my buddy list
+Allow only the users below
+Block all users
+Block only the users below
+Privacy
+Changes to privacy settings take effect immediately.
+Set privacy for:
+Remove All
+Permit User
+Type a user you permit to contact you.
+Please enter the name of the user you wish to be able to contact you.
+Permit
+Allow %s to contact you?
+Are you sure you wish to allow %s to contact you?
+Block User
+Type a user to block.
+Please enter the name of the user you wish to block.
+Block %s?
+Are you sure you want to block %s?
+Apply
+That file already exists
+Would you like to overwrite it?
+Overwrite
+Choose New Name
+Select Folder...
+Get List
+Add Chat
+Are you sure you want to delete the selected saved statuses?
+Use
+Title already in use.  You must choose a unique title.
+Different
+Title:
+Status:
+Use a different status for some accounts
+Save & Use
+Status for %s
+Custom Smiley
+Duplicate Shortcut
+Edit Smiley
+Add Smiley
+Image:
+Shortcut text:
+Smiley
+Shortcut Text
+Custom Smiley Manager
+Select Buddy Icon
+Click to change your buddyicon for this account.
+Click to change your buddyicon for all accounts.
+Waiting for network connection
+New status...
+Saved statuses...
+Status Selector
+Google Talk
+Facebook (XMPP)
+The following error has occurred loading %s: %s
+Failed to load image
+Cannot send folder %s.
+You have dragged an image
+Set as buddy icon
+Send image file
+Insert in message
+Would you like to set it as the buddy icon for this user?
+Cannot send launcher
+The file '%s' is too large for %s.  Please try a smaller image.\n
+Icon Error
+Could not set icon
+Open Link
+Copy Link Location
+Copy Email Address
+Open File
+Open Containing Directory
+Save File
+Play Sound
+Save File
+Do you really want to clear?
+Select color
+Pidgin
+Alias
+Close tabs
+Get Info
+Invite
+Modify...
+Add...
+Open Mail
+Edit
+Pidgin Tooltip
+Pidgin smileys
+Selecting this disables graphical emoticons.
+none
+Small
+Smaller versions of the default smileys
+Response Probability:
+Statistics Configuration
+Maximum response timeout:
+minutes
+Maximum last-seen difference:
+Threshold:
+Contact Availability Prediction
+Contact Availability Prediction plugin.
+Displays statistical information about your buddies' availability
+Buddy is idle
+Buddy is away
+Buddy is \"extended\" away
+Buddy is mobile
+Buddy is offline
+Point values to use when...
+Use last buddy when scores are equal
+Point values to use for account...
+Contact Priority
+Conversation Colors
+Customize colors in the conversation window
+Error Messages
+Highlighted Messages
+System Messages
+Sent Messages
+Received Messages
+Select Color for %s
+Ignore incoming format
+Apply in Chats
+Apply in IMs
+Server name request
+Enter an XMPP Server
+Select an XMPP server to query
+Find Services
+Add to Buddy List
+Gateway
+Directory
+PubSub Collection
+PubSub Leaf
+Service Discovery
+Browse
+Server does not exist
+Server does not support service discovery
+XMPP Service Discovery
+Allows browsing and registering services.
+By conversation count
+Conversation Placement
+Number of conversations per window
+Separate IM and Chat windows when placing by number
+ExtPlacement
+Extra conversation placement options.
+Mouse Gestures Configuration
+Middle mouse button
+Right mouse button
+Visual gesture display
+Mouse Gestures
+Provides support for mouse gestures
+Instant Messaging
+Select a person from your address book below, or add a new person.
+Group:
+New Person
+Select Buddy
+User details
+Associate Buddy
+Unable to send email
+The evolution executable was not found in the PATH.
+An email address was not found for this buddy.
+Add to Address Book
+Send Email
+Evolution Integration Configuration
+Select all accounts that buddies should be auto-added to.
+Evolution Integration
+Provides integration with Evolution.
+Please enter the person's information below.
+Please enter the buddy's username and account type below.
+Account type:
+Optional information:
+First name:
+Last name:
+Email:
+GTK Signals Test
+Test to see that all ui signals are working properly.
+History
+Iconify on Away
+Iconifies the buddy list and your conversations when you go away.
+Mail Checker
+Checks for new local mail.
+Adds a small box to the buddy list that shows if you have new mail.
+Markerline
+Draw a line to indicate new messages in a conversation.
+Jump to markerline
+Draw Markerline in 
+IM windows
+Chat windows
+Music messaging session confirmed.
+Music Messaging
+There was a conflict in running the command:
+Error Running Editor
+The following error has occurred:
+Music Messaging Configuration
+Score Editor Path
+Apply
+Music Messaging Plugin for collaborative composition.
+Notify For
+\tOnly when someone says your username
+Focused windows
+Notification Methods
+Prepend string into window title:
+Insert count of new messages into window title
+Insert count of new message into X property
+Set window manager \"URGENT\" hint
+Flash window
+Raise conversation window
+Present conversation window
+Notification Removal
+Remove when conversation window gains focus
+Remove when conversation window receives click
+Remove when typing in conversation window
+Remove when a message gets sent
+Remove on switch to conversation tab
+Message Notification
+Provides a variety of ways of notifying you of unread messages.
+Pidgin Demonstration Plugin
+An example plugin that does stuff - see the description.
+Hyperlink Color
+Visited Hyperlink Color
+Highlighted Message Name Color
+Typing Notification Color
+GtkTreeView Horizontal Separation
+Conversation Entry
+Conversation History
+Request Dialog
+Notify Dialog
+Select Color
+Select Interface Font
+Select Font for %s
+GTK+ Interface Font
+GTK+ Text Shortcut Theme
+Disable Typing Notification Text
+GTK+ Theme Control Settings
+Colors
+Fonts
+Miscellaneous
+Gtkrc File Tools
+Write settings to %s%sgtkrc-2.0
+Re-read gtkrc files
+Pidgin GTK+ Theme Control
+Provides access to commonly used gtkrc settings.
+Raw
+Lets you send raw input to text-based protocols.
+You can upgrade to %s %s today.
+New Version Available
+Later
+Download Now
+Release Notification
+Checks periodically for new releases.
+Send Button
+Conversation Window Send Button.
+Duplicate Correction
+The specified word already exists in the correction list.
+Text Replacements
+You type
+You send
+Whole words only
+Case sensitive
+Add a new text replacement
+You type:
+You send:
+Exact case match (uncheck for automatic case handling)
+Only replace whole words
+General Text Replacement Options
+Enable replacement of last word on send
+Text replacement
+Replaces text in outgoing messages according to user-defined rules.
+Just logged in
+Just logged out
+Icon for Chat
+Ignored
+Founder
+Operator
+Half Operator
+Authorization dialog
+Error dialog
+Information dialog
+Mail dialog
+Question dialog
+Warning dialog
+What kind of dialog is this?
+Status Icons
+Chatroom Emblems
+Dialog Icons
+Pidgin Icon Theme Editor
+Contact
+Pidgin Buddylist Theme Editor
+Edit Buddylist Theme
+Edit Icon Theme
+Pidgin Theme Editor
+Pidgin Theme Editor.
+Buddy Ticker
+A horizontal scrolling version of the buddy list.
+Display Timestamps Every
+Timestamp
+Display iChat-style timestamps
+Display iChat-style timestamps every N minutes.
+Timestamp Format Options
+Force timestamp format:
+Use system default
+12 hour time format
+24 hour time format
+Show dates in...
+Conversations:
+For delayed messages
+For delayed messages and in chats
+Message Logs:
+Message Timestamp Formats
+Customizes the message timestamp formats.
+Audio
+Video
+Output
+Plugin
+Device
+Input
+Plugin
+Device
+DROP
+Volume:
+Silence threshold:
+Input and Output Settings
+Microphone Test
+Voice/Video Settings
+Configure your microphone and webcam.
+Configure microphone and webcam settings for voice/video calls.
+Opacity:
+IM Conversation Windows
+IM window transparency
+Show slider bar in IM window
+Remove IM window transparency on focus
+Always on top
+Buddy List Window
+Buddy List window transparency
+Remove Buddy List window transparency on focus
+Transparency
+Variable Transparency for the buddy list and conversations.
+Startup
+Start %s on Windows startup
+Allow multiple instances
+Dockable Buddy List
+Keep Buddy List window on top:
+Only when docked
+Windows Pidgin Options
+Options specific to Pidgin for Windows.
+<font color='#777777'>Logged out.</font>
+XMPP Console
+Account: 
+<font color='#777777'>Not connected to XMPP</font>
+Send and receive raw XMPP stanzas.
+This plugin is useful for debugging XMPP servers or clients.
+A multi-platform GUI toolkit, used by Pidgin
+Core Pidgin files and dlls
+Create a Start Menu entry for Pidgin
+Create a shortcut to Pidgin on the Desktop
+Debug Symbols (for reporting crashes)
+Desktop
+GTK+ Runtime (required if not present)
+Localizations
+Next >
+Pidgin Instant Messaging Client (required)
+Shortcuts
+Shortcuts for starting Pidgin
+Spellchecking Support
+Start Menu
+The installer is already running.
+URI Handlers
+Visit the Pidgin Web Page
+You do not have permission to uninstall this application.
+<span weight=\"bold\">List Filtering</span>
+Channel Name
+Channel Topic
+Channels list
+Join channel:
+Search for text:
+Show channels with:
+Join Channel
+in:
+to
+users
+Connect
+File Transfers
+<span weight=\"bold\">Automatically Join Channels</span>
+<span weight=\"bold\">User Info</span>
+Accept invalid SSL certificate
+Character encoding:
+Cycle until connected
+Network Settings
+Nickserv password:
+Server password:
+Servers
+Use global user settings
+Use these user settings:
+User and Channels
+Automatically connect to network
+Name:
+Nick name:
+Real Name:
+Use secure connection (SSL)
+<span size=\"small\" style=\"italic\">Opaque</span>
+<span size=\"small\" style=\"italic\">Transparent</span>
+<span weight=\"bold\">Background</span>
+<span weight=\"bold\">DCC Settings</span>
+<span weight=\"bold\">Extra Colors</span>
+<span weight=\"bold\">File Transfers</span>
+<span weight=\"bold\">General</span>
+<span weight=\"bold\">Highlighting</span>
+<span weight=\"bold\">Text Colors</span>
+<span weight=\"bold\">Throttling</span>
+<span weight=\"bold\">User Interface</span>
+<span weight=\"bold\">mIRC Colors</span>
+Away message:
+Auto-accept DCC chat
+Auto-accept DCC file transfers
+Background mark:
+Built-in schemes:
+Convert spaces to underscores in filenames
+Enter extra words to trigger highlighting
+Foreground mark:
+Get IP address from server
+Global receive KB/s: 
+Image file:
+Individual send KB/s: 
+Individual receive KB/s: 
+Move completed files to:
+Preferences
+Real name:
+Save sender nickname in filenames
+Select Completed Files Directory
+Select Download Directory
+Show timestamps
+Show user list in main window
+Show marker line
+Use system terminal font
+Use this IP address:
+Use this font:
+Background color:
+Background image
+Colorize nicknames
+Download files to:
+Edit
+Foreground color:
+Global send KB/s: 
+Log conversations
+Nickname:
+None (use solid color)
+Part message:
+Quit message:
+Show colors
+Transparent background
+spell checking
+XChat-GNOME Setup
+Real name:
+Change
+Chat with people using IRC
+IRC Chat
+XChat-GNOME
+XChat-GNOME IRC Chat
+Apply on all servers
+Change
+Change nickname to:
+Close this discussion
+Mark as away
+Nickname
+Users
+nickname
+Auto Away
+Automatically go away / come back
+Network Monitor
+NetworkManager connection monitor
+%s loaded successfully\n
+Notification
+A notification area plugin.
+Notification plugin loaded.\n
+Notification plugin unloaded.\n
+Level of the messages that require a notification
+<span weight=\"bold\">Notification level</span>
+Notify each event
+Notify each message
+Notify only private messages
+Always display notification icon
+On-screen display
+Error closing notification: %s\n
+Failed to send notification: %s\n
+Message in %s
+Message from %s
+Private Message from %s
+OSD loaded\n
+OSD initialization failed\n
+Perl
+Perl scripting interface
+Python
+Python scripting interface
+xchat URL scraper
+Time
+Nick
+Channel
+URL
+URL Scraper
+Grabs URLs and puts them in a separate window for easy viewing.
+URL Scraper failed to load: couldn't compile URL regex.\n
+URL Scraper failed to load: couldn't compile e-mail regex.\n
+URL Scraper loaded.\n
+URL Scraper unloaded.\n
+URL Scraper history length
+URL Scraper show timestamps
+New message received
+Sound Notification
+Sound-notification plugin loaded.\n
+Sound-notification plugin unloaded.\n
+tclplugin
+Tcl plugin for XChat
+Cannot create ~/.xchat2
+I'm busy
+Leaving
+Couldn't connect to session bus
+Detection of running instance failed
+Failed to send \"url\" command to running instance
+Waiting
+Active
+Failed
+Done
+Connect
+Aborted
+Cannot access %s\n
+Error
+%s is offering \"%s\". Do you want to accept?
+No active DCCs\n
+YES  
+NO   
+You are being CTCP flooded from %s, ignoring %s\n
+You are being MSG flooded from %s, setting gui_auto_opendialog OFF.\n
+  %-20s online\n
+  %-20s offline\n
+No channel joined. Try /join #<channel>\n
+Not connected. Try /server <host> [<port>]\n
+Already marked away: %s\n
+Already marked back.\n
+I need /bin/sh to run!\n
+Commands Available:
+User defined commands:
+Plugin defined commands:
+Type /HELP <command> for more information, or /HELP -l
+Unknown arg '%s' ignored.
+No such plugin found.\n
+That plugin is refusing to unload.\n
+ADDBUTTON <name> <action>, adds a button under the user-list
+ALLCHAN <cmd>, sends a command to all channels you're in
+ALLCHANL <cmd>, sends a command to all channels you're in
+ALLSERV <cmd>, sends a command to all servers you're in
+AWAY [<reason>], sets you away
+BACK, sets you back (not away)
+CLEAR [ALL|HISTORY], Clears the current text window or command history
+CLOSE, Closes the current window/tab
+COUNTRY [-s] <code|wildcard>, finds a country code, eg: au = australia
+DELBUTTON <name>, deletes a button from under the user-list
+DISCON, Disconnects from server
+DNS <nick|host|ip>, Finds a users IP number
+ECHO <text>, Prints text locally
+EXECCONT, sends the process SIGCONT
+EXECSTOP, sends the process SIGSTOP
+EXECWRITE, sends data to the processes stdin
+FLUSHQ, flushes the current server's send queue
+GATE <host> [<port>], proxies through a host, port defaults to 23
+GHOST <nick> <password>, Kills a ghosted nickname
+HOP <nick>, gives chanhalf-op status to the nick (needs chanop)
+ID <password>, identifies yourself to nickserv
+JOIN <channel>, joins the channel
+KICK <nick>, kicks the nick from the current channel (needs chanop)
+LAGCHECK, forces a new lag check
+LASTLOG <string>, searches for a string in the buffer
+LOAD [-e] <file>, loads a plugin or script
+MDEOP, Mass deop's all chanops in the current channel (needs chanop)
+MOP, Mass op's all users in the current channel (needs chanop)
+MSG <nick> <message>, sends a private message
+NAMES, Lists the nicks on the current channel
+NCTCP <nick> <message>, Sends a CTCP notice
+NEWSERVER [-noconnect] <hostname> [<port>]
+NICK <nickname>, sets your nick
+OP <nick>, gives chanop status to the nick (needs chanop)
+PING <nick | channel>, CTCP pings nick or channel
+QUERY [-nofocus] <nick>, opens up a new privmsg window to someone
+QUIT [<reason>], disconnects from the current server
+QUOTE <text>, sends the text in raw form to the server
+SAY <text>, sends the text to the object in the current window
+SEND <nick> [<file>]
+SERVCHAN [-ssl] <host> <port> <channel>, connects and joins a channel
+SERVCHAN <host> <port> <channel>, connects and joins a channel
+SET [-e] [-or] [-quiet] <variable> [<value>]
+SETCURSOR [-|+]<position>
+UNBAN <mask> [<mask>...], unbans the specified masks.
+UNIGNORE <mask> [QUIET]
+UNLOAD <name>, unloads a plugin or script
+URL <url>, opens a URL in your browser
+VOICE <nick>, gives voice status to someone (needs chanop)
+WALLCHAN <message>, writes the message to all channels
+Usage: %s\n
+No such command.\n
+Bad arguments for user command.\n
+Too many recursive usercommands, aborting.
+Unknown Command. Try /help\n
+No xchat_plugin_init symbol; is this really an xchat plugin?
+Are you sure this is a SSL capable server and port?\n
+Proxy traversal failed.\n
+Cycling to next server in %s...\n
+Loaded log from
+**** ENDING LOGGING AT %s\n
+**** BEGIN LOGGING AT %s\n
+Left message
+Right message
+The nick of the joining person
+The channel being joined
+The host of the person
+The action
+Mode char
+The text
+Identified text
+The message
+Old nickname
+New nickname
+Nick of person who changed the topic
+Topic
+The nickname of the kicker
+The person being kicked
+The channel
+The reason
+The nick of the person leaving
+The time
+The creator
+Reason
+Host
+Who it's from
+The time in x.x format (see below)
+The Channel it's going to
+The sound
+The nick of the person
+The CTCP event
+The nick of the person who set the key
+The key
+The nick of the person who set the limit
+The limit
+The nick of the person who has been op'ed
+The nick of the person who did the op'ing
+The nick of the person who has been halfop'ed
+The nick of the person who did the halfop'ing
+The nick of the person who did the voice'ing
+The nick of the person who has been voice'ed
+The nick of the person who did the banning
+The ban mask
+The nick who removed the key
+The nick who removed the limit
+The nick of the person who did the deop'ing
+The nick of the person who has been deop'ed
+The nick of the person who did the dehalfop'ing
+The nick of the person who has been dehalfop'ed
+The nick of the person who did the devoice'ing
+The nick of the person who has been devoice'ed
+The nick of the person who did the unban'ing
+The nick of the person who did the exempt
+The exempt mask
+The nick of the person who removed the exempt
+The nick of the person who did the invite
+The invite mask
+The nick of the person who removed the invite
+The nick of the person who set the mode
+The mode's sign (+/-)
+The mode letter
+The channel it's being set on
+Username
+Full name
+Channel Membership/\"is an IRC operator\"
+Server Information
+Idle time
+Signon time
+Away reason
+Message
+Account
+Real user@host
+Real IP
+Channel Name
+Text
+Server Name
+Nick of person who invited you
+Nickname in use
+Nick being tried
+IP
+Port
+Network
+Modes string
+IP address
+DCC Type
+Filename
+Destination filename
+CPS
+Pathname
+Position
+Size
+DCC String
+Number of notify items
+Old Filename
+New Filename
+Receiver
+Hostmask
+Hostname
+The Packet
+Seconds
+Nick of person who have been invited
+Banmask
+Who set the ban
+Ban time
+-%C10-%C11-%O$t$1 added to notify list.
+-%C10-%C11-%O$t$1 Banlist: %C3$4 %C4$2 %C5$3%O
+-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned).
+-%C10-%C11-%O$t$1 is now known as $2
+%C13*%O$t$1 $2%O
+%C13*%O$t%C8%B$1%B%O $2%O
+-%C10-%C11-%O$t$1 sets ban on $2
+-%C10-%C11-%O$tChannel $1 created on $2
+-%C10-%C11-%O$t$1 removes channel half-operator status from $2
+-%C10-%C11-%O$t$1 removes channel operator status from $2
+-%C10-%C11-%O$t$1 removes voice from $2
+-%C10-%C11-%O$t$1 sets exempt on $2
+-%C10-%C11-%O$t$1 gives channel half-operator status to $2
+-%C10-%C11-%O$t$1 sets invite on $2
+%UChannel          Users   Topic%O
+%C2<%O$1%C2>%O$t$2%O
+-%C10-%C11-%O$t$1 sets mode $2$3 $4
+-%C10-%C11-%O$tChannel $1 modes: $2
+%C2<%C8%B$1%B%C2>%O$t$2%O
+%C12-%C13$1/$2%C12-%O$t$3%O
+-%C10-%C11-%O$t$1 gives channel operator status to $2
+-%C10-%C11-%O$t$1 removes exempt on $2
+-%C10-%C11-%O$t$1 removes invite on $2
+-%C10-%C11-%O$t$1 removes channel keyword
+-%C10-%C11-%O$t$1 removes user limit
+-%C10-%C11-%O$t$1 sets channel keyword to $2
+-%C10-%C11-%O$t$1 sets channel limit to $2
+-%C10-%C11-%O$t$1 removes ban on $2
+-%C10-%C11-%O$t$1 gives voice to $2
+-%C10-%C11-%O$tConnected. Now logging in..
+-%C10-%C11-%O$tConnecting to %C11$1 %C14(%C11$2%C14)%C port %C11$3%C..
+-%C10-%C11-%O$tConnection failed. Error: $1
+-%C10-%C11-%O$tReceived a CTCP $1 from $2
+-%C10-%C11-%O$tReceived a CTCP $1 from $2 (to $3)
+%C3>%O$1%C3<%O$tCTCP $2%O
+-%C10-%C11-%O$tReceived a CTCP Sound $1 from $2
+%C22*%O$tReceived a CTCP Sound $1 from $2 (to $3)
+-%C10-%C11-%O$tDCC CHAT to %C11$1%O aborted.
+-%C10-%C11-%O$tReceived a DCC CHAT offer from $1
+-%C10-%C11-%O$tOffering DCC CHAT to $1
+-%C10-%C11-%O$tAlready offering CHAT to $1
+-%C10-%C11-%O$tDCC $1 connect attempt to %C11$2%O failed (err=$3).
+-%C10-%C11-%O$tReceived '$1%O' from $2
+%C24,18 Type  To/From    Status  Size    Pos     File         
+-%C10-%C11-%O$tOffering %C11$1 %Cto %C11$2%O
+-%C10-%C11-%O$tNo such DCC offer.
+-%C10-%C11-%O$tDCC RECV %C11$2%O to %C11$1%O aborted.
+-%C10-%C11-%O$tDCC RECV $1 ($2) failed. Connection to $3 lost.
+-%C10-%C11-%O$tDCC RECV: Cannot open $1 for writing ($2).
+-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C.
+-%C10-%C11-%O$tDCC SEND %C11$2%O to %C11$1%O aborted.
+-%C10-%C11-%O$tDCC SEND %C11$1%O failed. Connection to %C11$2%O lost.
+-%C10-%C11-%O$t%C11$1 %Chas offered %C11$2 %C(%C11$3 %Cbytes)
+-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cstalled - aborting.
+-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Ctimed out - aborting.
+-%C10-%C11-%O$t$1 deleted from notify list.
+-%C10-%C11-%O$tDisconnected ($1).
+-%C10-%C11-%O$tFound your IP: [$1]
+$1$t$2
+%O%C11$1%O added to ignore list.
+Ignore on %C11$1%O changed.
+%C24,18                                                              
+%C24,18 Hostmask                  PRIV NOTI CHAN CTCP DCC  INVI UNIG 
+%O%C11$1%O removed from ignore list.
+  Ignore list is empty.
+-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Channel is invite only).
+-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)
+-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C has joined $2
+-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Requires keyword).
+<%C10-%C11-%O$t$1 has kicked $2 from $3 ($4%O)
+-%C10-%C11-%O$tYou have been killed by $1 ($2%O)
+%C3>%O$1%C3<%O$t$2%O
+-%C10-%C11-%O$t$1%O
+-%C10-%C11-%O$tMOTD Skipped.
+-%C10-%C11-%O$t$1 already in use. Retrying with $2..
+-%C10-%C11-%O$tNickname already in use. Use /NICK to try another.
+-%C10-%C11-%O$tNo such DCC.
+-%C10-%C11-%O$tNo process is currently running
+%C12-%C13$1%C12-%O$t$2%O
+-%C10-%C11-%O$tNotify list is empty.
+%C24,18 %B  Notify List                           
+-%C10-%C11-%O$t$1 users in notify list.
+-%C10-%C11-%O$tNotify: $1 is offline ($2).
+-%C10-%C11-%O$tNotify: $1 is online ($2).
+<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3
+<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3 %C14(%O$4%C14)%O
+-%C10-%C11-%O$tPing reply from $1 : $2 second(s)
+-%C10-%C11-%O$tNo ping reply for $1 seconds, disconnecting.
+%C12*%C13$1%C12*$t%O$2%O
+-%C10-%C11-%O$tA process is already running
+<%C10-%C11-%O$t$1 has quit %C14(%O$2%O%C14)%O
+-%C10-%C11-%O$t$1 sets modes%B %C14[%O$2%B%C14]%O
+%C12-%C13$1/Wallops%C12-%O$t$2%O
+-%C10-%C11-%O$tLooking up IP number for%C11 $1%O..
+-%C10-%C11-%O$tConnected.
+-%C10-%C11-%O$tLooking up %C11$1%C..
+-%C10-%C11-%O$tStopped previous connection attempt (pid=$1)
+-%C10-%C11-%O$tTopic for %C11$1%C is %C11$2%O
+-%C10-%C11-%O$t$1 has changed the topic to: $2%O
+-%C10-%C11-%O$tTopic for %C11$1%C set by %C11$2%C at %C11$3%O
+-%C10-%C11-%O$tUnknown host. Maybe you misspelled it?
+-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached).
+-%C10-%C11-%O$t%C11Users on $1:%C $2
+%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3
+-%C10-%C11-%O$t%C12[%O$1%C12] %Cis away %C14(%O$2%O%C14)
+-%C10-%C11-%O$t%C12[%O$1%C12]%C $2
+-%C10-%C11-%O$t%C12[%O$1%C12] %CEnd of WHOIS list.
+-%C10-%C11-%O$t%C12[%O$1%C12] %C$2
+-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O
+-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O, signon: %C11$3%O
+-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O
+-%C10-%C11-%O$t%C12[%O$1%C12]%O $2
+%C22*%O$t%C28[%O$1%C28]%O $2
+-%C10-%C11>%O$t%BYou%B are now talking on %C11$2%O
+-%C10-%C11-%O$tYou have been kicked from $2 by $3 ($4%O)
+-%C10-%C11-%O$tYou have left channel $3
+-%C10-%C11-%O$tYou have left channel $3 %C14(%O$4%C14)%O
+-%C10-%C11-%O$tYou're inviting %C11$1%C to %C11$2%C (%C11$3%C)
+%C6<%O$1%C6>%O$t$2%O
+-%C10-%C11-%O$tYou are now known as $2
+Remote host closed socket
+Connection refused
+No route to host
+Connection timed out
+Cannot assign that address
+Connection reset by peer
+Ascension Island
+Andorra
+United Arab Emirates
+Afghanistan
+Antigua and Barbuda
+Anguilla
+Albania
+Armenia
+Netherlands Antilles
+Angola
+Antarctica
+Argentina
+Reverse DNS
+American Samoa
+Austria
+Nato Fiel
+Australia
+Aruba
+Aland Islands
+Azerbaijan
+Bosnia and Herzegovina
+Barbados
+Bangladesh
+Belgium
+Burkina Faso
+Bulgaria
+Bahrain
+Burundi
+Businesses
+Benin
+Bermuda
+Brunei Darussalam
+Bolivia
+Brazil
+Bahamas
+Bhutan
+Bouvet Island
+Botswana
+Belarus
+Belize
+Canada
+Cocos Islands
+Democratic Republic of Congo
+Central African Republic
+Congo
+Switzerland
+Cote d'Ivoire
+Cook Islands
+Chile
+Cameroon
+China
+Colombia
+Internic Commercial
+Costa Rica
+Serbia and Montenegro
+Cuba
+Cape Verde
+Christmas Island
+Cyprus
+Czech Republic
+Germany
+Djibouti
+Denmark
+Dominica
+Dominican Republic
+Algeria
+Ecuador
+Educational Institution
+Estonia
+Egypt
+Western Sahara
+Eritrea
+Spain
+Ethiopia
+European Union
+Finland
+Fiji
+Falkland Islands
+Micronesia
+Faroe Islands
+France
+Gabon
+Great Britain
+Grenada
+Georgia
+French Guiana
+British Channel Isles
+Ghana
+Gibraltar
+Greenland
+Gambia
+Guinea
+Government
+Guadeloupe
+Equatorial Guinea
+Greece
+S. Georgia and S. Sandwich Isles
+Guatemala
+Guam
+Guinea-Bissau
+Guyana
+Hong Kong
+Heard and McDonald Islands
+Honduras
+Croatia
+Haiti
+Hungary
+Indonesia
+Ireland
+Israel
+Isle of Man
+India
+Informational
+International
+British Indian Ocean Territory
+Iraq
+Iran
+Iceland
+Italy
+Jersey
+Jamaica
+Jordan
+Japan
+Kenya
+Kyrgyzstan
+Cambodia
+Kiribati
+Comoros
+St. Kitts and Nevis
+North Korea
+South Korea
+Kuwait
+Cayman Islands
+Kazakhstan
+Laos
+Lebanon
+Saint Lucia
+Liechtenstein
+Sri Lanka
+Liberia
+Lesotho
+Lithuania
+Luxembourg
+Latvia
+Libya
+Morocco
+Monaco
+Moldova
+United States Medical
+Madagascar
+Marshall Islands
+Military
+Macedonia
+Mali
+Myanmar
+Mongolia
+Macau
+Northern Mariana Islands
+Martinique
+Mauritania
+Montserrat
+Malta
+Mauritius
+Maldives
+Malawi
+Mexico
+Malaysia
+Mozambique
+Namibia
+New Caledonia
+Niger
+Internic Network
+Norfolk Island
+Nigeria
+Nicaragua
+Netherlands
+Norway
+Nepal
+Nauru
+Niue
+New Zealand
+Oman
+Internic Non-Profit Organization
+Panama
+Peru
+French Polynesia
+Papua New Guinea
+Philippines
+Pakistan
+Poland
+St. Pierre and Miquelon
+Pitcairn
+Puerto Rico
+Palestinian Territory
+Portugal
+Palau
+Paraguay
+Qatar
+Reunion
+Romania
+Old School ARPAnet
+Russian Federation
+Rwanda
+Saudi Arabia
+Solomon Islands
+Seychelles
+Sudan
+Sweden
+Singapore
+St. Helena
+Slovenia
+Svalbard and Jan Mayen Islands
+Slovak Republic
+Sierra Leone
+San Marino
+Senegal
+Somalia
+Suriname
+Sao Tome and Principe
+Former USSR
+El Salvador
+Syria
+Swaziland
+Turks and Caicos Islands
+Chad
+French Southern Territories
+Togo
+Thailand
+Tajikistan
+Tokelau
+East Timor
+Turkmenistan
+Tunisia
+Tonga
+Turkey
+Trinidad and Tobago
+Tuvalu
+Taiwan
+Tanzania
+Ukraine
+Uganda
+United Kingdom
+United States of America
+Uruguay
+Uzbekistan
+Vatican City State
+St. Vincent and the Grenadines
+Venezuela
+British Virgin Islands
+US Virgin Islands
+Vietnam
+Vanuatu
+Wallis and Futuna Islands
+Samoa
+Yemen
+Mayotte
+Yugoslavia
+South Africa
+Zambia
+Zimbabwe
+Unknown
+Open Dialog Window
+Send a File
+User Info (WHOIS)
+Operator Actions
+Give Ops
+Take Ops
+Give Voice
+Take Voice
+Kick/Ban
+Kick
+Ban
+KickBan
+Direct client-to-client
+Send File
+Offer Chat
+Abort Chat
+Version
+Userinfo
+Clientinfo
+Ping
+Finger
+Oper
+Kill this user
+Mode
+Give Half-Ops
+Take Half-Ops
+Ignore
+Ignore User
+UnIgnore User
+Info
+Who
+WhoIs
+DNS Lookup
+Trace
+UserHost
+External
+Traceroute
+Telnet
+Leave Channel
+Join Channel...
+Enter Channel to Join:
+Server Links
+Ping Server
+Hide Version
+Op
+DeOp
+bye
+Enter reason to kick %s:
+Sendfile
+Dialog
+Send
+Chat
+Clear
+remote access
+plugin for remote access using DBUS
+Couldn't connect to session bus: %s\n
+Failed to acquire %s: %s\n
+Run XChat-GNOME in a terminal?
+Set it at TRUE if you want it activated
+The handler for \"irc://\" URLs
+“Listen very carefully, I shall say this only once.”
+XChat-GNOME Web Site
+translator-credits
+Automatically display the channel list dialog
+Background image filename
+Background transparency
+Colorize nicknames in the main window
+Default nickname used by servers without special options set
+Default real name used by servers without special options set
+Display redundant nickstamps
+Enable spellchecking
+Font for the main window
+Height of the channel list
+Height of the main window
+Languages to use for spellchecking
+List of enabled plugins
+Message sent on away
+Message sent on channel part
+Message sent on quit
+Position of the horizontal pane in the main window
+Selected background type
+Selected color scheme
+Show colors in the main window
+Show timestamps in the main window
+Show user list in main window
+Use system fonts
+Whether the horizontal pane in the main window is shown
+Whether the statusbar in the main window is shown
+Width of the channel list
+Width of the main window
+X position of the main window on the screen
+Y position of the main window on the screen
+xchat configuration version
+%s Channel List
+This network doesn't have a server defined.
+Please add at least one server to the %s network.
+Open Link in Browser
+Copy Link Location
+Send Message To...
+Copy Address
+Send File
+Paste File Contents
+Paste Filename
+Cancel
+Copy
+Error reading file \"%s\": %s\n
+Error converting URI \"%s\" into filename: %s\n
+Error retrieving file information for \"%s\": %s\n
+Save Transcript
+Error saving %s
+Search buffer is empty.\n
+%
+File
+Remaining
+Incoming File Transfer
+Accept
+starting
+queued
+Transfer of %s to %s failed
+Transfer of %s from %s failed
+Transfer failed
+aborted
+stalled
+%.2d:%.2d:%.2d
+%.2d:%.2d
+Send File...
+Full-screen the window
+Use directory instead of the default config dir
+Don't auto-connect to servers
+Don't auto-load plugins
+Open an irc:// url
+Open URL in an existing XChat-GNOME instance
+Show version information
+Failed to parse arguments: %s\n
+Incoming DCC Chat
+Unable to show '%s'
+Find:
+Previous
+Next
+<span foreground=\"dark grey\">Reached end, continuing from top</span>
+<span foreground=\"red\">Search string not found</span>
+Server
+Key
+New Network
+%s Network Properties
+Invalid input
+You must enter a network name
+You must enter a nick name
+You must enter a real name
+No Servers
+You must add at least one server for this network
+UTF-8 (Unicode)
+ISO-8859-15 (Western Europe)
+ISO-8859-2 (Central Europe)
+ISO-8859-7 (Greek)
+ISO-8859-8 (Hebrew)
+ISO-8859-9 (Turkish)
+ISO-2022-JP (Japanese)
+SJIS (Japanese)
+CP949 (Korean)
+KOI8-R (Cyrillic)
+CP1251 (Cyrillic)
+CP1256 (Arabic)
+CP1257 (Baltic)
+GB18030 (Chinese)
+TIS-620 (Thai)
+IRC
+Insert
+Network
+Discussion
+View
+Help
+Connect...
+File Transfers
+Quit
+Cut
+Paste
+Preferences
+Reconnect
+Disconnect
+Close
+Channels...
+Save Transcript
+Leave
+Close
+Find
+Change Topic
+Bans...
+Users
+Contents
+About
+Sidebar
+Statusbar
+Fullscreen
+Ex-Chat
+Error showing help
+D-Bus plugin is still installed
+Previous Network
+Next Network
+Previous Discussion
+Next Discussion
+Join
+Auto-connect on startup
+Auto-join on connect
+Show join/part messages
+<none>
+Colors
+Black on White
+White on Black
+Custom
+System Theme Colors
+File Transfers & DCC
+Effects
+IRC Preferences
+Really remove network \"%s\" and all of its servers?
+Networks
+Name
+unknown
+An error occurred unloading %s
+Plugin Unload Failed
+Plugin Load Failed
+Open Plugin
+Scripts and Plugins
+Enable
+Plugin
+Error in language %s activation: %s\n
+Error in spell checking configuration: %s\n
+Spell checking
+Check spelling
+Choose languages to use for spellcheck:
+Language
+%s%.1fs lag
+%d bytes buffered
+Error in spellchecking configuration: %s\n
+Insert Color Code
+Black
+Dark Blue
+Dark Green
+Red
+Brown
+Purple
+Orange
+Yellow
+Light Green
+Aqua
+Light Blue
+Blue
+Violet
+Grey
+Light Grey
+White
+Changing topic for %s
+Send File...
+Private Chat
+Kick
+Ban
+Op
+%d User
+%d Users"

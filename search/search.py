@@ -70,8 +70,9 @@ if __name__ == '__main__':
     'b a d',
     'c f g',
     ]
-    searchPhrase = 'a b c'
+    searchPhrase = 'z y x'
     d = search(searchPhrase, lines)
+    keys = d.keys()
     if d.has_key('contains'):
         print "-"*70
         print "CONTAINS"
@@ -81,8 +82,7 @@ if __name__ == '__main__':
         entries.reverse()
         for entry in entries:
             print entry[1]
-    keys = d.keys()
-    keys.remove('contains')
+	keys.remove('contains')
     keys.sort()
     keys.reverse()
     for key in keys:
@@ -94,4 +94,6 @@ if __name__ == '__main__':
         entries.reverse()
         for entry in entries:
             print entry[1]
+    if d == {}:
+      print 'Search Phrase Not Found'
 
