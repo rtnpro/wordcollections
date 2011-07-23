@@ -70,7 +70,7 @@ if __name__ == '__main__':
     'b a d',
     'c f g',
     ]
-    searchPhrase = 'z y x'
+    searchPhrase = 'a b c'
     d = search(searchPhrase, lines)
     keys = d.keys()
     if d.has_key('contains'):
