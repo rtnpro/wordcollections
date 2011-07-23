@@ -9,7 +9,7 @@ class searchUI:
     self.builder = gtk.Builder()
     self.builder.add_from_file("search.glade")
     self.window = self.builder.get_object("MainWindow")
-    self.window.set_default_size(300, 300)
+    #self.window.set_default_size(300, 300)
     self.window.set_title("Search")
     self.builder.connect_signals(self)
     
@@ -148,9 +148,9 @@ class searchUI:
       self.entries = f.read().split('\n')
       self.lines = []
       for i in self.entries:
-	if i.find (">") > 0:
+	if i.find (">") >= 0:
 	  i = i.replace(">","&gt;")
-	if i.find ("<") > 0:
+	if i.find ("<") >= 0:
 	  i = i.replace("<","&lt;")
 	self.lines.append(i)
 	  
